@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- LibraryLink 5 Documentation site -->
 <NavNode key="Home" 
          controller="Home" 
           action="Index" 
@@ -6,7 +7,7 @@
          treeBuilderName="cloudscribe.SimpleContent.Services.PagesNavigationTreeBuilder"
          >
   <Children>
- <!-- no forum in root site 
+  
  <NavNode key="ForumIndex"
               controller="Forum"
               action="Index"
@@ -59,15 +60,15 @@
 
       </Children>
     </NavNode>
--->
 
-       <NavNode key="Contact"
+	<NavNode key="Contact"
             controller="Contact"
             action="Index"
             text="Contact">
         <Children />
-        </NavNode>
-      <NavNode key="PrivacyPolicy"
+	</NavNode>
+	
+	<NavNode key="PrivacyPolicy"
               controller="Privacy"
               action="Index"
               text="Privacy Policy"
@@ -75,7 +76,8 @@
               >
       <Children />
     </NavNode>
-      <NavNode key="Manage" 
+	
+	<NavNode key="Manage" 
                  controller="Manage" 
                  action="Index" 
                  text="My Account" 
