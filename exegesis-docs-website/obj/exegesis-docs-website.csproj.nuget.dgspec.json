@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Development\\exegesis-docs-website\\exegesis-docs-website\\exegesis-docs-website.csproj": {}
+  },
+  "projects": {
+    "D:\\Development\\exegesis-docs-website\\exegesis-docs-website\\exegesis-docs-website.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\exegesis-docs-website\\exegesis-docs-website\\exegesis-docs-website.csproj",
+        "projectName": "exegesis-docs-website",
+        "projectPath": "D:\\Development\\exegesis-docs-website\\exegesis-docs-website\\exegesis-docs-website.csproj",
+        "packagesPath": "C:\\Users\\Flowers\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\exegesis-docs-website\\exegesis-docs-website\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Flowers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://nexus.esdm.co.uk/repository/nuget-hosted/": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "cloudscribe.Core.CompiledViews.Bootstrap4": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "cloudscribe.Core.SimpleContent": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap4": {
+              "target": "Package",
+              "version": "[5.0.*, )"
+            },
+            "cloudscribe.Core.Storage.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "cloudscribe.Core.Web": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "cloudscribe.DynamicPolicy.CoreIntegration": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.DynamicPolicy.Storage.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "cloudscribe.DynamicPolicy.Web.Mvc": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.DynamicPolicy.Web.Views.Bootstrap4": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.Email.Templating.Data.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.EmailList.CoreIntegration": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.EmailList.Data.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.EmailList.KvpUserProperties.Integration": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.EmailList.Views.Bootstrap4": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.EmailList.Web.Mvc": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.EmailQueue.CoreIntegration": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.EmailQueue.Data.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.Forms.Bootstrap4": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.Forms.ContentTemplate.Bootstrap4": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.Forms.CoreIntegration": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.Forms.Data.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.Forms.Web": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            },
+            "cloudscribe.Kvp.Storage.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "cloudscribe.Logging.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "cloudscribe.Logging.Web": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "cloudscribe.SimpleContactForm.CoreIntegration": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "cloudscribe.SimpleContent.CompiledViews.Bootstrap4": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "cloudscribe.SimpleContent.ContentTemplates.Bootstrap4": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "cloudscribe.SimpleContent.MetaWeblog": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "cloudscribe.SimpleContent.Storage.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "cloudscribe.SimpleContent.Syndication": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "cloudscribe.SimpleContent.Web": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "cloudscribe.TalkAbout.Comments.Integration.CloudscribeCore": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "cloudscribe.TalkAbout.Forum.Storage.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "cloudscribe.TalkAbout.Forum.Web": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "cloudscribe.TalkAbout.Forum.Web.Bootstrap4": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "cloudscribe.TalkAbout.Integration.CloudscribeCore": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "cloudscribe.TalkAbout.Storage.EFCore.PostgreSql": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "cloudscribe.TalkAbout.Web": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "cloudscribe.TalkAbout.Web.Bootstrap4": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "cloudscribe.UserProperties": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "cloudscribe.UserProperties.Kvp": {
+              "target": "Package",
+              "version": "[4.0.*, )"
+            },
+            "cloudscribe.Web.Localization": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "cloudscribe.Web.StaticFiles": {
+              "target": "Package",
+              "version": "[3.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.2, 3.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
