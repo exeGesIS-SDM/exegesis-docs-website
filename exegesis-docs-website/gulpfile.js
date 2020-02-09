@@ -10,9 +10,12 @@ var gulp = require("gulp"),
     merge = require('merge-stream')
 ;
 
+// NB this is not usefully configured yet in exegesisdocs
+
 var config = {
     srcSassDir: './app-scss',
-    cssOutDir: './sitefiles/s1/themes/custom1/wwwroot/css',
+    //cssOutDir: './sitefiles/s1/themes/custom1/wwwroot/css',
+    cssOutDir: './SharedThemes/exegesis-docs/wwwroot/css',
     srcFileWatchPattern: './app-scss/*.scss'
 };
 
@@ -23,8 +26,7 @@ gulp.task('buildCustom1ThemeCss', function () {
         //outputStyle: 'compressed',
         includePaths: [
             config.srcSassDir
-           
-        ],
+        ]
     }).on('error', sass.logError)
         )
     .pipe(sourcemaps.write())

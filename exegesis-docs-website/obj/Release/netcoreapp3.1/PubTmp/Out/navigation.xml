@@ -6,6 +6,7 @@
          treeBuilderName="cloudscribe.SimpleContent.Services.PagesNavigationTreeBuilder"
          >
   <Children>
+ <!-- no forum in root site 
  <NavNode key="ForumIndex"
               controller="Forum"
               action="Index"
@@ -58,7 +59,7 @@
 
       </Children>
     </NavNode>
-
+-->
 
        <NavNode key="Contact"
             controller="Contact"
@@ -197,8 +198,7 @@
 
 
 
-          </Children>
-        </NavNode>
+
 
       <NavNode key="SiteAdmin" 
                controller="SiteAdmin" 
@@ -743,6 +743,7 @@
 
           </Children>
       </NavNode>
-
+          </Children>
+        </NavNode>
   </Children>
 </NavNode>
