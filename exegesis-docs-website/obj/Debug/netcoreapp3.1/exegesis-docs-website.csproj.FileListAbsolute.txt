@@ -247,7 +247,4 @@ D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3
 D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3.1\exegesis-docs-website.csproj.CopyComplete
 D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3.1\exegesis-docs-website.dll
 D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3.1\exegesis-docs-website.pdb
-D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3.1\en-US\exegesis-docs-website.resources.cs
-D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3.1\fr-FR\exegesis-docs-website.resources.cs
-D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3.1\it-IT\exegesis-docs-website.resources.cs
-D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3.1\cy\exegesis-docs-website.resources.cs
+D:\Development\exegesis-docs-website\exegesis-docs-website\obj\Debug\netcoreapp3.1\Razor\SharedThemes\exegesisdocs\Shared\_Layout.cshtml.g.cs
