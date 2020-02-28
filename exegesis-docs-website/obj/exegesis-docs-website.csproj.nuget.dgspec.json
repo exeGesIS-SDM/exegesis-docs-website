@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Development\\exegesis-docs-website\\exegesis-docs-website\\exegesis-docs-website.csproj",
         "projectName": "exegesis-docs-website",
         "projectPath": "D:\\Development\\exegesis-docs-website\\exegesis-docs-website\\exegesis-docs-website.csproj",
-        "packagesPath": "C:\\Users\\Flowers\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\crispinf\\.nuget\\packages\\",
         "outputPath": "D:\\Development\\exegesis-docs-website\\exegesis-docs-website\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Flowers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crispinf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nexus.esdm.co.uk/repository/nuget-hosted/": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.esdm.co.uk/repository/nuget-hosted/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -52,7 +52,7 @@
             },
             "cloudscribe.Core.SimpleContent": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.3, )"
             },
             "cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap4": {
               "target": "Package",
@@ -160,7 +160,7 @@
             },
             "cloudscribe.SimpleContent.MetaWeblog": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.3, )"
             },
             "cloudscribe.SimpleContent.Storage.EFCore.PostgreSql": {
               "target": "Package",
