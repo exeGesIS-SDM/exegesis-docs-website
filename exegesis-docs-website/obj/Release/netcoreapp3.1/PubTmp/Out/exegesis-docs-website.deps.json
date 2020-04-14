@@ -26,7 +26,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.1",
           "cloudscribe.Core.CompiledViews.Bootstrap4": "4.0.0",
-          "cloudscribe.Core.SimpleContent": "5.0.2",
+          "cloudscribe.Core.SimpleContent": "5.0.3",
           "cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap4": "5.0.0",
           "cloudscribe.Core.Storage.EFCore.PostgreSql": "4.0.2",
           "cloudscribe.Core.Web": "4.0.4",
@@ -53,7 +53,7 @@
           "cloudscribe.SimpleContactForm.CoreIntegration": "4.0.0",
           "cloudscribe.SimpleContent.CompiledViews.Bootstrap4": "5.0.3",
           "cloudscribe.SimpleContent.ContentTemplates.Bootstrap4": "3.0.3",
-          "cloudscribe.SimpleContent.MetaWeblog": "5.0.2",
+          "cloudscribe.SimpleContent.MetaWeblog": "5.0.3",
           "cloudscribe.SimpleContent.Storage.EFCore.PostgreSql": "5.0.1",
           "cloudscribe.SimpleContent.Syndication": "5.0.1",
           "cloudscribe.SimpleContent.Web": "5.0.3",
@@ -468,7 +468,7 @@
           "lib/netstandard2.1/cloudscribe.Core.Models.dll": {}
         }
       },
-      "cloudscribe.Core.SimpleContent/5.0.2": {
+      "cloudscribe.Core.SimpleContent/5.0.3": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Embedded": "3.0.0",
           "Microsoft.Extensions.Localization": "3.0.0",
@@ -479,7 +479,7 @@
           "cloudscribe.Core.Models": "4.0.0",
           "cloudscribe.Core.Web": "4.0.4",
           "cloudscribe.FileManager.Web": "4.0.1",
-          "cloudscribe.MetaWeblog": "3.0.2",
+          "cloudscribe.MetaWeblog": "3.0.3",
           "cloudscribe.SimpleContent.Models": "5.0.1",
           "cloudscribe.SimpleContent.Web": "5.0.3",
           "cloudscribe.Syndication.Web": "3.0.1",
@@ -487,8 +487,8 @@
         },
         "runtime": {
           "lib/netcoreapp3.0/cloudscribe.Core.SimpleContent.dll": {
-            "assemblyVersion": "5.0.2.0",
-            "fileVersion": "5.0.2.0"
+            "assemblyVersion": "5.0.3.0",
+            "fileVersion": "5.0.3.0"
           }
         },
         "compile": {
@@ -497,7 +497,7 @@
       },
       "cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap4/5.0.0": {
         "dependencies": {
-          "cloudscribe.Core.SimpleContent": "5.0.2"
+          "cloudscribe.Core.SimpleContent": "5.0.3"
         },
         "runtime": {
           "lib/netcoreapp3.0/cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap4.Views.dll": {
@@ -1404,11 +1404,11 @@
           "lib/netcoreapp3.0/cloudscribe.Logging.Web.dll": {}
         }
       },
-      "cloudscribe.MetaWeblog/3.0.2": {
+      "cloudscribe.MetaWeblog/3.0.3": {
         "runtime": {
           "lib/netcoreapp3.0/cloudscribe.MetaWeblog.dll": {
-            "assemblyVersion": "3.0.2.0",
-            "fileVersion": "3.0.2.0"
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.3.0"
           }
         },
         "compile": {
@@ -1524,19 +1524,19 @@
           "lib/netcoreapp3.0/cloudscribe.SimpleContent.ContentTemplates.Bootstrap4.dll": {}
         }
       },
-      "cloudscribe.SimpleContent.MetaWeblog/5.0.2": {
+      "cloudscribe.SimpleContent.MetaWeblog/5.0.3": {
         "dependencies": {
           "Microsoft.Extensions.Options.ConfigurationExtensions": "3.0.0",
           "cloudscribe.DateTimeUtils": "3.0.0",
-          "cloudscribe.MetaWeblog": "3.0.2",
+          "cloudscribe.MetaWeblog": "3.0.3",
           "cloudscribe.SimpleContent.Models": "5.0.1",
           "cloudscribe.Versioning": "1.0.0",
           "cloudscribe.Web.Navigation": "4.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.0/cloudscribe.SimpleContent.MetaWeblog.dll": {
-            "assemblyVersion": "5.0.2.0",
-            "fileVersion": "5.0.2.0"
+            "assemblyVersion": "5.0.3.0",
+            "fileVersion": "5.0.3.0"
           }
         },
         "compile": {
@@ -5432,12 +5432,12 @@
       "path": "cloudscribe.core.models/4.0.0",
       "hashPath": "cloudscribe.core.models.4.0.0.nupkg.sha512"
     },
-    "cloudscribe.Core.SimpleContent/5.0.2": {
+    "cloudscribe.Core.SimpleContent/5.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2fDSeGIeLMhZUbWZwaheB8SWyjtgxKbD2AC+ANJZuynFunVwtcxXeJxJyX1YzivBAq/7tsqReq//66GF+bgWRQ==",
-      "path": "cloudscribe.core.simplecontent/5.0.2",
-      "hashPath": "cloudscribe.core.simplecontent.5.0.2.nupkg.sha512"
+      "sha512": "sha512-wUJH0sc0KEPTSmU6Mlz0jg5TOD7kcaB3KaTU/9aBfq4xSaZNIjWFPbFhLUa0nfuHAqYnPkqmL+jrpj7sZQgyAQ==",
+      "path": "cloudscribe.core.simplecontent/5.0.3",
+      "hashPath": "cloudscribe.core.simplecontent.5.0.3.nupkg.sha512"
     },
     "cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap4/5.0.0": {
       "type": "package",
@@ -5768,12 +5768,12 @@
       "path": "cloudscribe.logging.web/4.0.0",
       "hashPath": "cloudscribe.logging.web.4.0.0.nupkg.sha512"
     },
-    "cloudscribe.MetaWeblog/3.0.2": {
+    "cloudscribe.MetaWeblog/3.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-r6pXVNippuhX6BCCqZMD7V+QeTGZKpnS3AxmTAQ8yf7RAGLcc5Vbut2wcBmpv9dAt18vCPLUtaf+oux+8ESAmg==",
-      "path": "cloudscribe.metaweblog/3.0.2",
-      "hashPath": "cloudscribe.metaweblog.3.0.2.nupkg.sha512"
+      "sha512": "sha512-Hi05Tzkt8+oSteAKcMd/AShW/68d3u5owBEOmoTfKFufAyRVwmqaHIs4+73vA1Sr5waNFduA6pQVWVrT5jtv1Q==",
+      "path": "cloudscribe.metaweblog/3.0.3",
+      "hashPath": "cloudscribe.metaweblog.3.0.3.nupkg.sha512"
     },
     "cloudscribe.MultiTenancy/4.0.0": {
       "type": "package",
@@ -5817,12 +5817,12 @@
       "path": "cloudscribe.simplecontent.contenttemplates.bootstrap4/3.0.3",
       "hashPath": "cloudscribe.simplecontent.contenttemplates.bootstrap4.3.0.3.nupkg.sha512"
     },
-    "cloudscribe.SimpleContent.MetaWeblog/5.0.2": {
+    "cloudscribe.SimpleContent.MetaWeblog/5.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UgTNg66ECas7Uj5a6ggATiRCFwQbgMIu1NfNnX1oK3Tty/QJ11egSn/KMdYCAkSRGoLg3dgBcahAxBkHgFFmwg==",
-      "path": "cloudscribe.simplecontent.metaweblog/5.0.2",
-      "hashPath": "cloudscribe.simplecontent.metaweblog.5.0.2.nupkg.sha512"
+      "sha512": "sha512-1jM8BPRw6uW1sW6yGElfC72oGFlCsGe+gfynvpJENeOS/5vOh6aMKXr0oy0bzCoRM+VKP6q7BLpKXwDRGiF8tw==",
+      "path": "cloudscribe.simplecontent.metaweblog/5.0.3",
+      "hashPath": "cloudscribe.simplecontent.metaweblog.5.0.3.nupkg.sha512"
     },
     "cloudscribe.SimpleContent.Models/5.0.1": {
       "type": "package",
@@ -6037,7 +6037,7 @@
     "CsvHelper/12.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xiqj0fZfrQrxsN6CdW+u2YNKoUE67q601rb0EmWTSWEjRKJuMPFmj/nb9jnnSO3/rHPFKzWfM/g8MoBJzf/N9g==",
+      "sha512": "sha512-5FvNot2YQ2I5oTsGPBFZccB/7qsxpofGcp5LMcyzzOOR6W+yvxvDyXg4gRlsf3r6zE78GNAaghPyBAitwPzonw==",
       "path": "csvhelper/12.1.0",
       "hashPath": "csvhelper.12.1.0.nupkg.sha512"
     },
@@ -6128,14 +6128,14 @@
     "Microsoft.AspNetCore.Http.Abstractions/1.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oudg6anX6RccReMRKOaxZeI2ticKuc9alduk3JxGli6xYN6hF/FP/5IiIATOOnXt8fr4ECgvOdcoUyRpyEZd5w==",
+      "sha512": "sha512-Ab4xz9u7Ih4PtnoRB5CCSKEop2GydEzcuqkjaWrbs2wTHBg0xI+UBQQQKs7V1lDAfBxak4Wme3mG2UUCJilO9w==",
       "path": "microsoft.aspnetcore.http.abstractions/1.1.2",
       "hashPath": "microsoft.aspnetcore.http.abstractions.1.1.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Http.Features/1.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3a/SjTduivsEeMjWM49/IevsBzyDxMyljeNL4w/8aEoQSBAdiQCQir9AWpUpRR8MuIY/2k0ZtENsC97ok1n9yA==",
+      "sha512": "sha512-Ib0ofcH4zkmGwoUOIMVwRd1iU2HrATiL3ozuqzAZgEqVBVbp6W7k0O72uQ3pkw3o/zS4S0Gyt5SQksxDBSDmcw==",
       "path": "microsoft.aspnetcore.http.features/1.1.2",
       "hashPath": "microsoft.aspnetcore.http.features.1.1.2.nupkg.sha512"
     },
@@ -6940,7 +6940,7 @@
     "System.Reflection.TypeExtensions/4.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+      "sha512": "sha512-BWYdrACMy1Sbq7Kh1oISS+2qKX1dHhXNpRByG3c6M9i2fhU9BZqO3nFYIabmbZuQwd7svR5zfxNHgmgv2XkkIg==",
       "path": "system.reflection.typeextensions/4.4.0",
       "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
     },
