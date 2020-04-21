@@ -57,7 +57,7 @@
     <PackageReference Include="cloudscribe.SimpleContent.ContentTemplates.Bootstrap4" Version="3.0.3" />
     <PackageReference Include="cloudscribe.SimpleContent.Storage.EFCore.PostgreSql" Version="5.0.1" />
 
-    <PackageReference Include="cloudscribe.Logging.Web" Version="4.0.*" />
+    <PackageReference Include="cloudscribe.Logging.Web" Version="4.0.1" />
     <PackageReference Include="cloudscribe.Logging.EFCore.PostgreSql" Version="4.0.1" />
 
 
