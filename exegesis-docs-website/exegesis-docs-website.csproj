@@ -32,6 +32,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="SharedThemes\exegesisdocs\wwwroot\img\exegesis_logo_bw.png" />
+    <None Remove="SharedThemes\exegesisdocs\wwwroot\img\exegesis_logo_colour.jpg" />
+    <None Remove="SharedThemes\exegesisdocs\wwwroot\img\exegesis_logo_colour_100px.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <_ContentIncludedByDefault Remove="bundleconfig.json" />
   </ItemGroup>
 
@@ -43,10 +49,10 @@
 
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.3" />
 
-    <PackageReference Include="cloudscribe.Core.Web" Version="4.0.6" />
-    <PackageReference Include="cloudscribe.Core.CompiledViews.Bootstrap4" Version="4.0.5" />
+    <PackageReference Include="cloudscribe.Core.Web" Version="4.0.9" />
+    <PackageReference Include="cloudscribe.Core.CompiledViews.Bootstrap4" Version="4.0.6" />
     <PackageReference Include="cloudscribe.Web.StaticFiles" Version="3.0.1" />
-    <PackageReference Include="cloudscribe.Core.Storage.EFCore.PostgreSql" Version="4.0.2" />
+    <PackageReference Include="cloudscribe.Core.Storage.EFCore.PostgreSql" Version="4.0.3" />
     
     <PackageReference Include="cloudscribe.Core.SimpleContent" Version="5.0.3" />
     <PackageReference Include="cloudscribe.SimpleContent.Web" Version="5.0.4" />
@@ -64,7 +70,7 @@
     <PackageReference Include="cloudscribe.SimpleContactForm.CoreIntegration" Version="4.0.*" />
 
     <PackageReference Include="cloudscribe.Kvp.Storage.EFCore.PostgreSql" Version="4.0.*" />
-    <PackageReference Include="cloudscribe.UserProperties.Kvp" Version="4.0.*" />
+    <PackageReference Include="cloudscribe.UserProperties.Kvp" Version="4.0.1" />
     <PackageReference Include="cloudscribe.UserProperties" Version="4.0.*" />
 
     <PackageReference Include="cloudscribe.Web.Localization" Version="3.0.2" />
@@ -80,7 +86,7 @@
     <PackageReference Include="cloudscribe.DynamicPolicy.CoreIntegration" Version="3.0.*" />
     <PackageReference Include="cloudscribe.DynamicPolicy.Storage.EFCore.PostgreSql" Version="3.0.2" />
 
-    <PackageReference Include="cloudscribe.EmailQueue.CoreIntegration" Version="3.0.*" />
+    <PackageReference Include="cloudscribe.EmailQueue.CoreIntegration" Version="3.0.1" />
     <PackageReference Include="cloudscribe.EmailQueue.Data.EFCore.PostgreSql" Version="3.0.*" />
     <PackageReference Include="cloudscribe.Email.Templating.Data.EFCore.PostgreSql" Version="3.0.*" />
 
@@ -104,6 +110,18 @@
      <PackageReference Include="cloudscribe.TalkAbout.Forum.Storage.EFCore.PostgreSql" Version="3.0.1" />
     
     
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="SharedThemes\exegesisdocs\wwwroot\img\exegesis_logo_bw.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="SharedThemes\exegesisdocs\wwwroot\img\exegesis_logo_colour.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="SharedThemes\exegesisdocs\wwwroot\img\exegesis_logo_colour_100px.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
   </ItemGroup>
 
   
