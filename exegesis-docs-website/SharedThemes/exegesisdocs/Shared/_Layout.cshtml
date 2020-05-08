@@ -49,9 +49,8 @@
         <div class="fixed-top container-fluid brand-header bg-white">
             <div class="d-flex align-items-center bg-white">
                 <div><a href="/">
-                    @*<img class="mr-2 mr-sm-3" style="min-width:368px" src="/img/exegesis_logo_colour_100px.jpg" alt="Exegesis SDM logo" />
-                        instead use new taghelper for theme folder image *@
-                                 <img class="mr-2 mr-sm-3" style="min-width:368px;" src="~/img/exegesis_logo_colour_100px.jpg" alt="Exegesis SDM logo" cs-resolve-theme-resource="true" cs-shared-theme="true" cs-tenant="@Tenant" asp-append-version="true" /></a></div>
+                    @*use new taghelper for theme folder image *@
+                    <img class="mr-2 mr-sm-3" style="min-width:368px;" src="~/img/exegesis_logo_colour_100px.jpg" alt="Exegesis SDM logo" cs-resolve-theme-resource="true" cs-shared-theme="true" cs-tenant="@Tenant" asp-append-version="true" /></a></div>
                 @if (Tenant.ShowSiteNameLink)
                 {
                 <div class="align-self-center d-none d-md-block">
