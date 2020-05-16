@@ -3,4 +3,12 @@
   <PropertyGroup>
     <NameOfLastUsedPublishProfile>FolderProfile</NameOfLastUsedPublishProfile>
   </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="GlobalResources\CloudscribeCore.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GlobalResources\CloudscribeCore.it-IT.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
