@@ -50,7 +50,7 @@
             <div class="d-flex align-items-center bg-white">
                 <div><a href="/">
                     @*use new taghelper for theme folder image *@
-                    <img class="mr-2 mr-sm-3" style="min-width:368px;" src="~/img/exegesis_logo_colour_100px.jpg" alt="Exegesis SDM logo" cs-resolve-theme-resource="true" cs-shared-theme="true" cs-tenant="@Tenant" asp-append-version="true" /></a></div>
+                    <img class="me-3 me-sm-3" style="max-width:308px;" src="~/img/exegesis_idox_bg.jpg" alt="Exegesis SDM logo" cs-resolve-theme-resource="true" cs-shared-theme="true" cs-tenant="@Tenant" asp-append-version="true" /></a></div>
                 @if (Tenant.ShowSiteNameLink)
                 {
                 <div class="align-self-center d-none d-md-block">
@@ -67,18 +67,18 @@
             </div>
         </div>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark pt-0 pb-0">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse bg-dark" id="navbarNavDropdown">
-                @await Component.InvokeAsync("Navigation", new { viewName = "Bootstrap4TopNavWithDropdowns", filterName = NamedNavigationFilters.TopNav, startingNodeKey = "" })
+                @await Component.InvokeAsync("Navigation", new { viewName = "Bootstrap5TopNavWithDropdowns", filterName = NamedNavigationFilters.TopNav, startingNodeKey = "" })
                 <partial name="_LoginPartialWithDropdowns" />
             </div>
         </nav>
     </header>
     <div id="wrapper" class="container-fluid cs-container flex-fill">
-        @await Component.InvokeAsync("Navigation", new { viewName = "Bootstrap4Breadcrumbs", filterName = NamedNavigationFilters.Breadcrumbs, startingNodeKey = "" })
+        @await Component.InvokeAsync("Navigation", new { viewName = "Bootstrap5Breadcrumbs", filterName = NamedNavigationFilters.Breadcrumbs, startingNodeKey = "" })
         <div class="row">
             <main id="content" class="col order-3">
                 <partial name="AlertsPartial" />
