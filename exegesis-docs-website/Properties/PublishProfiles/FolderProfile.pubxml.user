@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\Development\exegesis-docs-website\exegesis-docs-website\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2022-09-14T15:55:23.4706662Z;</History>
+    <History>True|2022-09-21T12:12:56.4106338Z;True|2022-09-16T16:38:47.9256802+01:00;True|2022-09-14T16:55:23.4706662+01:00;</History>
   </PropertyGroup>
 </Project>
