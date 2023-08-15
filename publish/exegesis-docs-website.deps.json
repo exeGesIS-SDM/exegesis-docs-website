@@ -1,0 +1,4476 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "exegesis-docs-website/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.3",
+          "cloudscribe.Core.CompiledViews.Bootstrap5": "6.0.26",
+          "cloudscribe.Core.SimpleContent": "6.0.0",
+          "cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap5": "6.0.0",
+          "cloudscribe.Core.Storage.EFCore.PostgreSql": "6.0.2",
+          "cloudscribe.Core.Web": "6.0.35",
+          "cloudscribe.DynamicPolicy.CoreIntegration": "6.0.0",
+          "cloudscribe.DynamicPolicy.Storage.EFCore.PostgreSql": "6.0.2",
+          "cloudscribe.DynamicPolicy.Web.Mvc": "6.0.1",
+          "cloudscribe.DynamicPolicy.Web.Views.Bootstrap5": "6.0.1",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.Email.Templating.Data.EFCore.PostgreSql": "6.0.1",
+          "cloudscribe.EmailList.CoreIntegration": "6.0.1",
+          "cloudscribe.EmailList.Data.EFCore.PostgreSql": "6.0.1",
+          "cloudscribe.EmailList.KvpUserProperties.Integration": "6.0.1",
+          "cloudscribe.EmailList.Views.Bootstrap5": "6.0.2",
+          "cloudscribe.EmailList.Web.Mvc": "6.0.4",
+          "cloudscribe.EmailQueue.CoreIntegration": "6.0.2",
+          "cloudscribe.EmailQueue.Data.EFCore.PostgreSql": "6.0.3",
+          "cloudscribe.Forms.Bootstrap5": "6.0.0",
+          "cloudscribe.Forms.ContentTemplate.Bootstrap5": "6.0.0",
+          "cloudscribe.Forms.CoreIntegration": "6.0.0",
+          "cloudscribe.Forms.Data.EFCore.PostgreSql": "6.0.1",
+          "cloudscribe.Forms.Web": "6.0.0",
+          "cloudscribe.Kvp.Storage.EFCore.PostgreSql": "6.0.1",
+          "cloudscribe.Logging.EFCore.PostgreSql": "6.0.0",
+          "cloudscribe.Logging.Web": "6.0.1",
+          "cloudscribe.SimpleContactForm.CoreIntegration": "6.0.1",
+          "cloudscribe.SimpleContent.CompiledViews.Bootstrap5": "6.0.2",
+          "cloudscribe.SimpleContent.ContentTemplates.Bootstrap5": "6.0.2",
+          "cloudscribe.SimpleContent.MetaWeblog": "6.0.0",
+          "cloudscribe.SimpleContent.Storage.EFCore.PostgreSql": "6.0.3",
+          "cloudscribe.SimpleContent.Syndication": "6.0.0",
+          "cloudscribe.SimpleContent.Web": "6.0.3",
+          "cloudscribe.TalkAbout.Comments.Integration.CloudscribeCore": "6.0.0",
+          "cloudscribe.TalkAbout.Forum.Storage.EFCore.PostgreSql": "6.0.1",
+          "cloudscribe.TalkAbout.Forum.Web": "6.0.0",
+          "cloudscribe.TalkAbout.Forum.Web.Bootstrap5": "6.0.0",
+          "cloudscribe.TalkAbout.Integration.CloudscribeCore": "6.0.1",
+          "cloudscribe.TalkAbout.Storage.EFCore.PostgreSql": "6.0.1",
+          "cloudscribe.TalkAbout.Web": "6.0.0",
+          "cloudscribe.TalkAbout.Web.Bootstrap5": "6.0.0",
+          "cloudscribe.UserProperties": "6.0.0",
+          "cloudscribe.UserProperties.Kvp": "6.0.0",
+          "cloudscribe.Web.Localization": "6.0.0",
+          "cloudscribe.Web.StaticFiles": "6.0.11"
+        },
+        "runtime": {
+          "exegesis-docs-website.dll": {}
+        },
+        "resources": {
+          "en-US/exegesis-docs-website.resources.dll": {
+            "locale": "en-US"
+          },
+          "fr-FR/exegesis-docs-website.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/exegesis-docs-website.resources.dll": {
+            "locale": "it-IT"
+          },
+          "cy/exegesis-docs-website.resources.dll": {
+            "locale": "cy"
+          }
+        }
+      },
+      "cloudscribe.Common.Gdpr/6.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.6.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Common.Gdpr.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.ContentUtils/6.0.0": {
+        "dependencies": {
+          "Markdig": "0.16.0",
+          "cloudscribe.HtmlAgilityPack": "1.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.ContentUtils.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Core.CompiledViews.Bootstrap5/6.0.26": {
+        "dependencies": {
+          "cloudscribe.Core.Web": "6.0.35"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Core.CompiledViews.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.26.0",
+            "fileVersion": "6.0.26.0"
+          }
+        }
+      },
+      "cloudscribe.Core.Identity/6.0.6": {
+        "dependencies": {
+          "IdentityModel": "4.0.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "6.0.0",
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.0",
+          "Microsoft.AspNetCore.Authentication.MicrosoftAccount": "6.0.0",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "6.0.0",
+          "Microsoft.AspNetCore.Authentication.Twitter": "6.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Microsoft.Extensions.Identity.Core": "6.0.0",
+          "Microsoft.Extensions.Identity.Stores": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0",
+          "System.Security.Claims": "4.3.0",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.MultiTenancy": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Core.Identity.dll": {
+            "assemblyVersion": "6.0.6.0",
+            "fileVersion": "6.0.6.0"
+          }
+        }
+      },
+      "cloudscribe.Core.Models/6.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "System.Data.Common": "4.3.0",
+          "cloudscribe.Common.Gdpr": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Core.Models.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.Core.SimpleContent/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "cloudscribe.Core.Identity": "6.0.6",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.Core.Web": "6.0.35",
+          "cloudscribe.FileManager.Web": "6.0.4",
+          "cloudscribe.MetaWeblog": "6.0.0",
+          "cloudscribe.SimpleContent.Models": "6.0.0",
+          "cloudscribe.SimpleContent.Web": "6.0.3",
+          "cloudscribe.Syndication.Web": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Core.SimpleContent.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap5/6.0.0": {
+        "dependencies": {
+          "cloudscribe.Core.SimpleContent": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Core.Storage.EFCore.Common/6.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Core.Storage.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.Core.Storage.EFCore.PostgreSql/6.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.Core.Storage.EFCore.Common": "6.0.1",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Core.Storage.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.Core.Web/6.0.35": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "cloudscribe.Core.Identity": "6.0.6",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.DateTimeUtils": "6.0.0",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.FileManager.CoreIntegration": "6.0.3",
+          "cloudscribe.MultiTenancy": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3",
+          "cloudscribe.Web.Pagination": "6.0.0",
+          "cloudscribe.Web.SiteMap.FromNavigation": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Core.Web.dll": {
+            "assemblyVersion": "6.0.35.0",
+            "fileVersion": "6.0.35.0"
+          }
+        }
+      },
+      "cloudscribe.DateTimeUtils/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "NodaTime": "2.4.7"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.DateTimeUtils.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.DynamicPolicy.CoreIntegration/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.DynamicPolicy.Models": "6.0.0",
+          "cloudscribe.DynamicPolicy.Web.Mvc": "6.0.1",
+          "cloudscribe.MultiTenancy": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.DynamicPolicy.CoreIntegration.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.DynamicPolicy.Models/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.DynamicPolicy.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.DynamicPolicy.Storage.EFCore.Common/6.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "cloudscribe.DynamicPolicy.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.DynamicPolicy.Storage.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.DynamicPolicy.Storage.EFCore.PostgreSql/6.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.DynamicPolicy.Models": "6.0.0",
+          "cloudscribe.DynamicPolicy.Storage.EFCore.Common": "6.0.2",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.DynamicPolicy.Storage.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.DynamicPolicy.Web.Mvc/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.DynamicPolicy.Models": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3",
+          "cloudscribe.Web.Pagination": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.DynamicPolicy.Web.Mvc.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.DynamicPolicy.Web.Views.Bootstrap5/6.0.1": {
+        "dependencies": {
+          "cloudscribe.DynamicPolicy.Web.Mvc": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.DynamicPolicy.Web.Views.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.EFCore.PostgreSql.Conventions/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EFCore.PostgreSql.Conventions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Email.Senders/6.0.0": {
+        "dependencies": {
+          "MailKit": "3.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "MimeKit": "3.0.0",
+          "SendGrid": "9.25.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/cloudscribe.Email.Senders.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Email.Templating.Data.EFCore.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.Email.Templating.Models": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Email.Templating.Data.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Email.Templating.Data.EFCore.PostgreSql/6.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.Email.Templating.Data.EFCore.Common": "6.0.0",
+          "cloudscribe.Email.Templating.Models": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Email.Templating.Data.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.Email.Templating.Models/6.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.6.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Email.Templating.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Email.Templating.Services/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "cloudscribe.Email.Templating.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Email.Templating.Services.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Email.Templating.Web/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.Email.Templating.Models": "6.0.0",
+          "cloudscribe.Email.Templating.Services": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Email.Templating.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.EmailList.CoreIntegration/6.0.1": {
+        "dependencies": {
+          "cloudscribe.Core.Identity": "6.0.6",
+          "cloudscribe.EmailList.Models": "6.0.0",
+          "cloudscribe.EmailList.Web.Mvc": "6.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailList.CoreIntegration.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.EmailList.Data.EFCore.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.EmailList.Models": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailList.Data.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.EmailList.Data.EFCore.PostgreSql/6.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.EmailList.Data.EFCore.Common": "6.0.0",
+          "cloudscribe.EmailList.Models": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailList.Data.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.EmailList.KvpUserProperties.Integration/6.0.1": {
+        "dependencies": {
+          "cloudscribe.EmailList.Web.Mvc": "6.0.4",
+          "cloudscribe.UserProperties.Kvp": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailList.KvpUserProperties.Integration.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.EmailList.Models/6.0.0": {
+        "dependencies": {
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailList.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.EmailList.Views.Bootstrap5/6.0.2": {
+        "dependencies": {
+          "cloudscribe.EmailList.Web.Mvc": "6.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailList.Views.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.EmailList.Web.Mvc/6.0.4": {
+        "dependencies": {
+          "CsvHelper": "12.1.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.DateTimeUtils": "6.0.0",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.Email.Templating.Services": "6.0.0",
+          "cloudscribe.Email.Templating.Web": "6.0.0",
+          "cloudscribe.EmailList.Models": "6.0.0",
+          "cloudscribe.EmailQueue.Models": "6.0.2",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3",
+          "cloudscribe.Web.Navigation": "6.0.2",
+          "cloudscribe.Web.Pagination": "6.0.0",
+          "sts.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailList.Web.Mvc.dll": {
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.4.0"
+          }
+        }
+      },
+      "cloudscribe.EmailQueue.CoreIntegration/6.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.EmailQueue.Models": "6.0.2",
+          "cloudscribe.EmailQueue.Services": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailQueue.CoreIntegration.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.EmailQueue.Data.EFCore.Common/6.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.EmailQueue.Models": "6.0.2",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailQueue.Data.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.3.0",
+            "fileVersion": "6.0.3.0"
+          }
+        }
+      },
+      "cloudscribe.EmailQueue.Data.EFCore.PostgreSql/6.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.EmailQueue.Data.EFCore.Common": "6.0.3",
+          "cloudscribe.EmailQueue.Models": "6.0.2",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailQueue.Data.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.3.0",
+            "fileVersion": "6.0.3.0"
+          }
+        }
+      },
+      "cloudscribe.EmailQueue.Models/6.0.2": {
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailQueue.Models.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.EmailQueue.Services/6.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.EmailQueue.Models": "6.0.2",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.EmailQueue.Services.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.FileManager.CoreIntegration/6.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.FileManager.Web": "6.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.FileManager.CoreIntegration.dll": {
+            "assemblyVersion": "6.0.3.0",
+            "fileVersion": "6.0.3.0"
+          }
+        }
+      },
+      "cloudscribe.FileManager.Web/6.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "SixLabors.ImageSharp": "3.0.1",
+          "SixLabors.ImageSharp.Drawing": "1.0.0-beta15",
+          "cloudscribe.Web.Common": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.FileManager.Web.dll": {
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.4.0"
+          }
+        }
+      },
+      "cloudscribe.Forms.Bootstrap5/6.0.0": {
+        "dependencies": {
+          "cloudscribe.Forms.Web": "6.0.0",
+          "cloudscribe.Web.Pagination": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Forms.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Forms.ContentTemplate.Bootstrap5/6.0.0": {
+        "dependencies": {
+          "cloudscribe.Forms.CoreIntegration": "6.0.0",
+          "cloudscribe.SimpleContent.Web": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Forms.ContentTemplate.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Forms.CoreIntegration/6.0.0": {
+        "dependencies": {
+          "cloudscribe.Core.Identity": "6.0.6",
+          "cloudscribe.Forms.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Forms.CoreIntegration.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Forms.Data.EFCore.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.Forms.Models": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Forms.Data.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Forms.Data.EFCore.PostgreSql/6.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.Forms.Data.EFCore.Common": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Forms.Data.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.Forms.Models/6.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.6.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Forms.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Forms.Web/6.0.0": {
+        "dependencies": {
+          "CsvHelper": "12.1.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.DateTimeUtils": "6.0.0",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.Forms.Models": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3",
+          "cloudscribe.Web.Navigation": "6.0.2",
+          "cloudscribe.Web.Pagination": "6.0.0",
+          "sts.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Forms.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.HtmlAgilityPack/1.0.1": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Diagnostics.TraceSource": "4.3.0",
+          "System.Xml.XPath": "4.3.0",
+          "System.Xml.XPath.XmlDocument": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/cloudscribe.HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.Kvp.Models/6.0.0": {
+        "dependencies": {
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Kvp.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Kvp.Storage.EFCore.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.Core.Storage.EFCore.Common": "6.0.1",
+          "cloudscribe.Kvp.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Kvp.Storage.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Kvp.Storage.EFCore.PostgreSql/6.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.Kvp.Models": "6.0.0",
+          "cloudscribe.Kvp.Storage.EFCore.Common": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Kvp.Storage.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.Logging/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Logging.EFCore.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "cloudscribe.Logging": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Logging.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Logging.EFCore.PostgreSql/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.Logging": "6.0.0",
+          "cloudscribe.Logging.EFCore.Common": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Logging.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Logging.Web/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "cloudscribe.DateTimeUtils": "6.0.0",
+          "cloudscribe.Logging": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Pagination": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Logging.Web.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.MetaWeblog/6.0.0": {
+        "runtime": {
+          "lib/net6.0/cloudscribe.MetaWeblog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.MultiTenancy/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.MultiTenancy.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Pagination.Models/1.1.0": {
+        "dependencies": {
+          "System.Linq.Queryable": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/cloudscribe.Pagination.Models.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContactForm/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Localization.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContactForm.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContactForm.CoreIntegration/6.0.1": {
+        "dependencies": {
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.SimpleContactForm": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContactForm.CoreIntegration.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContent.CompiledViews.Bootstrap5/6.0.2": {
+        "dependencies": {
+          "cloudscribe.SimpleContent.Web": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContent.CompiledViews.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContent.ContentTemplates.Bootstrap5/6.0.2": {
+        "dependencies": {
+          "cloudscribe.SimpleContent.Web": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContent.ContentTemplates.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContent.MetaWeblog/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "cloudscribe.DateTimeUtils": "6.0.0",
+          "cloudscribe.MetaWeblog": "6.0.0",
+          "cloudscribe.SimpleContent.Models": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Navigation": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContent.MetaWeblog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContent.Models/6.0.0": {
+        "dependencies": {
+          "System.Security.Claims": "4.3.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContent.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContent.Storage.EFCore.Common/6.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "cloudscribe.SimpleContent.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContent.Storage.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContent.Storage.EFCore.PostgreSql/6.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.SimpleContent.Models": "6.0.0",
+          "cloudscribe.SimpleContent.Storage.EFCore.Common": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContent.Storage.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.3.0",
+            "fileVersion": "6.0.3.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContent.Syndication/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.SimpleContent.Models": "6.0.0",
+          "cloudscribe.SimpleContent.Web": "6.0.3",
+          "cloudscribe.Syndication.Web": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContent.Syndication.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.SimpleContent.Web/6.0.3": {
+        "dependencies": {
+          "Markdig": "0.16.0",
+          "MediatR": "7.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "cloudscribe.DateTimeUtils": "6.0.0",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.HtmlAgilityPack": "1.0.1",
+          "cloudscribe.SimpleContent.Models": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3",
+          "cloudscribe.Web.Navigation": "6.0.2",
+          "cloudscribe.Web.Pagination": "6.0.0",
+          "cloudscribe.Web.SiteMap.FromNavigation": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.SimpleContent.Web.dll": {
+            "assemblyVersion": "6.0.3.0",
+            "fileVersion": "6.0.3.0"
+          }
+        }
+      },
+      "cloudscribe.Syndication/6.0.0": {
+        "runtime": {
+          "lib/net6.0/cloudscribe.Syndication.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Syndication.Web/6.0.0": {
+        "dependencies": {
+          "cloudscribe.Syndication": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Syndication.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Comments.Integration.CloudscribeCore/6.0.0": {
+        "dependencies": {
+          "cloudscribe.Core.Web": "6.0.35",
+          "cloudscribe.TalkAbout.Integration.Models": "6.0.0",
+          "cloudscribe.TalkAbout.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Comments.Integration.CloudscribeCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Forum.Models/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.ComponentModel.Annotations": "4.6.0",
+          "cloudscribe.Pagination.Models": "1.1.0",
+          "cloudscribe.TalkAbout.Integration.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Forum.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Forum.Storage.EFCore.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0",
+          "cloudscribe.TalkAbout.Forum.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Forum.Storage.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Forum.Storage.EFCore.PostgreSql/6.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.TalkAbout.Forum.Storage.EFCore.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Forum.Storage.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Forum.Web/6.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.ContentUtils": "6.0.0",
+          "cloudscribe.Core.Web": "6.0.35",
+          "cloudscribe.DateTimeUtils": "6.0.0",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.TalkAbout.Forum.Models": "6.0.0",
+          "cloudscribe.TalkAbout.Integration.Models": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3",
+          "cloudscribe.Web.Navigation": "6.0.2",
+          "cloudscribe.Web.Pagination": "6.0.0",
+          "sts.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Forum.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Forum.Web.Bootstrap5/6.0.0": {
+        "dependencies": {
+          "cloudscribe.TalkAbout.Forum.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Forum.Web.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Integration.CloudscribeCore/6.0.1": {
+        "dependencies": {
+          "cloudscribe.Core.Web": "6.0.35",
+          "cloudscribe.TalkAbout.Integration.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Integration.CloudscribeCore.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Integration.Models/6.0.0": {
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Integration.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Models/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.ComponentModel.Annotations": "4.6.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Models.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Storage.EFCore.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0",
+          "cloudscribe.TalkAbout.Models": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Storage.EFCore.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Storage.EFCore.PostgreSql/6.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0",
+          "cloudscribe.EFCore.PostgreSql.Conventions": "6.0.0",
+          "cloudscribe.TalkAbout.Storage.EFCore.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Storage.EFCore.PostgreSql.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Web/6.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "cloudscribe.DateTimeUtils": "6.0.0",
+          "cloudscribe.Email.Senders": "6.0.0",
+          "cloudscribe.Pagination.Models": "1.1.0",
+          "cloudscribe.TalkAbout.Integration.Models": "6.0.0",
+          "cloudscribe.TalkAbout.Models": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0",
+          "cloudscribe.Web.Common": "6.0.3",
+          "sts.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.TalkAbout.Web.Bootstrap5/6.0.0": {
+        "dependencies": {
+          "cloudscribe.TalkAbout.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.TalkAbout.Web.Bootstrap5.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.UserProperties/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.Web.Common": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.UserProperties.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.UserProperties.Kvp/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "cloudscribe.Core.Identity": "6.0.6",
+          "cloudscribe.Core.Models": "6.0.2",
+          "cloudscribe.Core.Web": "6.0.35",
+          "cloudscribe.Kvp.Models": "6.0.0",
+          "cloudscribe.UserProperties": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.UserProperties.Kvp.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Versioning/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/cloudscribe.Versioning.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Web.Common/6.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "System.Text.Encodings.Web": "6.0.0",
+          "cloudscribe.HtmlAgilityPack": "1.0.1",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Web.Common.dll": {
+            "assemblyVersion": "6.0.3.0",
+            "fileVersion": "6.0.3.0"
+          }
+        }
+      },
+      "cloudscribe.Web.Localization/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Localization": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Web.Localization.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Web.Navigation/6.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Web.Navigation.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.Web.Pagination/6.0.0": {
+        "dependencies": {
+          "System.Linq.Queryable": "4.3.0",
+          "cloudscribe.Pagination.Models": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Web.Pagination.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Web.SiteMap/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Web.SiteMap.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "cloudscribe.Web.SiteMap.FromNavigation/6.0.2": {
+        "dependencies": {
+          "cloudscribe.Web.Navigation": "6.0.2",
+          "cloudscribe.Web.SiteMap": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Web.SiteMap.FromNavigation.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      },
+      "cloudscribe.Web.StaticFiles/6.0.11": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0",
+          "cloudscribe.Versioning": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/cloudscribe.Web.StaticFiles.dll": {
+            "assemblyVersion": "6.0.11.0",
+            "fileVersion": "6.0.11.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/ru/cloudscribe.Web.StaticFiles.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      },
+      "CsvHelper/12.1.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.TypeExtensions": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CsvHelper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
+      "Humanizer.Core/2.8.26": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.26.1919"
+          }
+        }
+      },
+      "IdentityModel/4.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "MailKit/3.0.0": {
+        "dependencies": {
+          "MimeKit": "3.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/MailKit.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Markdig/0.16.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/Markdig.dll": {
+            "assemblyVersion": "0.16.0.0",
+            "fileVersion": "0.16.0.0"
+          }
+        }
+      },
+      "MediatR/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Twitter/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Twitter.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {},
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.JsonPatch/3.1.3": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.16314"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.JsonPatch": "3.1.3",
+          "Newtonsoft.Json": "13.0.1",
+          "Newtonsoft.Json.Bson": "1.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.16314"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.EntityFrameworkCore/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "System.Collections.Immutable": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.0": {},
+      "Microsoft.EntityFrameworkCore.Design/6.0.0": {
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "System.Text.Json": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {},
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Identity.Core/6.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Identity.Core": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Localization/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Logging/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.10.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "6.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.20330"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.10.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.20330"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/6.10.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "6.10.0",
+          "Microsoft.IdentityModel.Tokens": "6.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.20330"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.10.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "6.10.0",
+          "System.IdentityModel.Tokens.Jwt": "6.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.20330"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/6.10.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.IdentityModel.Logging": "6.10.0",
+          "System.Security.Cryptography.Cng": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.20330"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "MimeKit/3.0.0": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.9.0",
+          "System.Security.Cryptography.Pkcs": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/MimeKit.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "NETStandard.Library/1.6.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.Win32.Primitives": "4.3.0",
+          "System.AppContext": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Console": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tools": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Globalization.Calendars": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.Compression": "4.3.0",
+          "System.IO.Compression.ZipFile": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Net.Http": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Net.Sockets": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0",
+          "System.Runtime.Numerics": "4.3.0",
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Security.Cryptography.X509Certificates": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Threading.Timer": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0",
+          "System.Xml.XDocument": "4.3.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.22727"
+          }
+        }
+      },
+      "NodaTime/2.4.7": {
+        "runtime": {
+          "lib/netstandard2.0/NodaTime.dll": {
+            "assemblyVersion": "2.4.7.0",
+            "fileVersion": "2.4.7.0"
+          }
+        }
+      },
+      "Npgsql/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Npgsql": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
+          }
+        }
+      },
+      "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.native.System/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "runtime.native.System.IO.Compression/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "runtime.native.System.Net.Http/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
+        "dependencies": {
+          "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple": "4.3.0"
+        }
+      },
+      "runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+        "dependencies": {
+          "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0",
+          "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {},
+      "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "SendGrid/9.25.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "starkbank-ecdsa": "1.3.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {
+            "assemblyVersion": "9.25.1.0",
+            "fileVersion": "9.25.1.0"
+          }
+        }
+      },
+      "SixLabors.Fonts/1.0.0-beta18": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.0.1": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp.Drawing/1.0.0-beta15": {
+        "dependencies": {
+          "SixLabors.Fonts": "1.0.0-beta18",
+          "SixLabors.ImageSharp": "3.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.Drawing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "starkbank-ecdsa/1.3.3": {
+        "runtime": {
+          "lib/netstandard2.1/StarkbankEcdsa.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "sts.Common/6.0.0": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.9.0"
+        },
+        "runtime": {
+          "lib/net6.0/sts.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "System.AppContext/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Buffers/4.3.0": {
+        "dependencies": {
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Collections.Concurrent/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.ComponentModel.Annotations/4.6.0": {},
+      "System.Console/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0"
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Diagnostics.Debug/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Diagnostics.Tools/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.TraceSource/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "runtime.native.System": "4.3.0"
+        }
+      },
+      "System.Diagnostics.Tracing/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Formats.Asn1/5.0.0": {},
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Globalization.Calendars/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Globalization.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0"
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/6.10.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "6.10.0",
+          "Microsoft.IdentityModel.Tokens": "6.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.20330"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.Compression/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Buffers": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "runtime.native.System": "4.3.0",
+          "runtime.native.System.IO.Compression": "4.3.0"
+        }
+      },
+      "System.IO.Compression.ZipFile/4.3.0": {
+        "dependencies": {
+          "System.Buffers": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.Compression": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.Encoding": "4.3.0"
+        }
+      },
+      "System.IO.FileSystem/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.FileSystem.Primitives/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Linq/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Linq.Expressions/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Linq.Queryable/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Net.Http/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Globalization.Extensions": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0",
+          "System.Security.Cryptography.OpenSsl": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Security.Cryptography.X509Certificates": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "runtime.native.System": "4.3.0",
+          "runtime.native.System.Net.Http": "4.3.0",
+          "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "System.Net.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0"
+        }
+      },
+      "System.Net.Sockets/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.ObjectModel/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.TypeExtensions/4.4.0": {},
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Runtime.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.Handles/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Threading": "4.3.0",
+          "runtime.native.System": "4.3.0"
+        }
+      },
+      "System.Runtime.Numerics/4.3.0": {
+        "dependencies": {
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Security.Claims/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Security.Principal": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.Algorithms/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.Numerics": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "runtime.native.System.Security.Cryptography.Apple": "4.3.0",
+          "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.Cng/5.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "5.0.0"
+        }
+      },
+      "System.Security.Cryptography.Csp/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.OpenSsl/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.Numerics": "4.3.0",
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.Pkcs/5.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "5.0.0",
+          "System.Security.Cryptography.Cng": "5.0.0"
+        }
+      },
+      "System.Security.Cryptography.Primitives/4.3.0": {
+        "dependencies": {
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.X509Certificates/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Globalization.Calendars": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.Numerics": "4.3.0",
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Cng": "5.0.0",
+          "System.Security.Cryptography.Csp": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0",
+          "System.Security.Cryptography.OpenSsl": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "runtime.native.System": "4.3.0",
+          "runtime.native.System.Net.Http": "4.3.0",
+          "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "System.Security.Principal/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Text.Encoding.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0"
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        }
+      },
+      "System.Text.RegularExpressions/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Threading.Timer/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Xml.ReaderWriter/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.3.0"
+        }
+      },
+      "System.Xml.XDocument/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tools": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "System.Xml.XmlDocument/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "System.Xml.XPath/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "System.Xml.XPath.XmlDocument/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0",
+          "System.Xml.XPath": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "exegesis-docs-website/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cloudscribe.Common.Gdpr/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OLqZV81BJy7Vz80OR+naHXR7/vNFmiGlquhsojuU1h4AMjuW3TcibC2R5rTEr6E/M3xfA84KYGYHhgQmQCuATw==",
+      "path": "cloudscribe.common.gdpr/6.0.0",
+      "hashPath": "cloudscribe.common.gdpr.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.ContentUtils/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k9vuSdrsxxuKmLp8rZk0fym/YGwU41XFBRBnN9DThBjiqfGzyE0+a47QY/pCr5snTdLpY5F45HrE+vpT9fNf7w==",
+      "path": "cloudscribe.contentutils/6.0.0",
+      "hashPath": "cloudscribe.contentutils.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Core.CompiledViews.Bootstrap5/6.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SZ4V0qkztlIShGymMS6HyosT/iY3NKAaned1aWJ3QsNEPg1vKe81pWjbJY273J0f/7L6AgGPkQbX/VJWvZ750w==",
+      "path": "cloudscribe.core.compiledviews.bootstrap5/6.0.26",
+      "hashPath": "cloudscribe.core.compiledviews.bootstrap5.6.0.26.nupkg.sha512"
+    },
+    "cloudscribe.Core.Identity/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zlKbW+knPBTs0LEdR/UqjfMzmTfjPDw5LwYnbcm7iYFmcsPlPHsDE8GVEoo3qIHlP7U1jUU61mCt/q9TldO4JA==",
+      "path": "cloudscribe.core.identity/6.0.6",
+      "hashPath": "cloudscribe.core.identity.6.0.6.nupkg.sha512"
+    },
+    "cloudscribe.Core.Models/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eh9ix8tMV3B48INEBDqRFH5+9fvhfeQoQCwn7aYGwPI+u01JzxtnYi86Fo3f0wrP72wiHRTcqvrh3zxXCXYudw==",
+      "path": "cloudscribe.core.models/6.0.2",
+      "hashPath": "cloudscribe.core.models.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.Core.SimpleContent/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qptB7qfY4lt84X9wa94vGSbpN46BIRwRTR6wuYyz61K2RsxdmyWLo6TiwY48o8iCTDHWFWCr5WFqRxyON84NnQ==",
+      "path": "cloudscribe.core.simplecontent/6.0.0",
+      "hashPath": "cloudscribe.core.simplecontent.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Core.SimpleContent.CompiledViews.Bootstrap5/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5n6UiLA9a1000LlAtLr3hnQuPIZ11/BqJxBo4VR0WlgiNYrzsAfyE9AG3CdzdJWeELLX3tPWeaZamo3A3NGTow==",
+      "path": "cloudscribe.core.simplecontent.compiledviews.bootstrap5/6.0.0",
+      "hashPath": "cloudscribe.core.simplecontent.compiledviews.bootstrap5.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Core.Storage.EFCore.Common/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TQl4+cSxjwmcJelAvIvfm2UyjqP4uGqGzIrQZILwEifmFUD40MP1bcJoiuzo68nOnNroN2+8QdKvQt2n65tjNA==",
+      "path": "cloudscribe.core.storage.efcore.common/6.0.1",
+      "hashPath": "cloudscribe.core.storage.efcore.common.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.Core.Storage.EFCore.PostgreSql/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-csNYKyz/XUnNOw1K/ag6uHsD7/W19ocvmtcW9DFwvB6ZqrKhSXBIuM9r2oMeQXWFGWxg1HrsfAun5aExU46UHA==",
+      "path": "cloudscribe.core.storage.efcore.postgresql/6.0.2",
+      "hashPath": "cloudscribe.core.storage.efcore.postgresql.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.Core.Web/6.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YibwiDk5XSY4nMmHvl2fZHJCK0IVFL2QWlgqntHU30eNd6FkohG+pMsLo62M6beKzuJF0UQ6FC4x3DhSGN5xOQ==",
+      "path": "cloudscribe.core.web/6.0.35",
+      "hashPath": "cloudscribe.core.web.6.0.35.nupkg.sha512"
+    },
+    "cloudscribe.DateTimeUtils/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vr8c1g5HupyPdFe4FCqh3OC6n2qNojwrZ9Ucr+PjapFGr/O2rFO440xBOxqJug0ypA7LS+HFQJScDr1MwQqb0w==",
+      "path": "cloudscribe.datetimeutils/6.0.0",
+      "hashPath": "cloudscribe.datetimeutils.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.DynamicPolicy.CoreIntegration/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IppeSskXxQfFYrG6A0jtMNJKedkg5KASv4pYLcqjJ3QZ6oHnv2nhhzkyEcvtdKhnHovRPrbjVVQMfk6rJfMVRg==",
+      "path": "cloudscribe.dynamicpolicy.coreintegration/6.0.0",
+      "hashPath": "cloudscribe.dynamicpolicy.coreintegration.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.DynamicPolicy.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1fQEBqSKErY4LcOq0iEHbx0kmYU1u2V3lvl0+gcnoAStR/h7qSNQGH2JByWfwpxOThR73p4YgGAW9iqSkQSA+Q==",
+      "path": "cloudscribe.dynamicpolicy.models/6.0.0",
+      "hashPath": "cloudscribe.dynamicpolicy.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.DynamicPolicy.Storage.EFCore.Common/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l3X7goe4y2/sdFCvzuIOTwYx737ol3mszG2V9l8kCl/mBxelw1vpOZ2jRTrF7axIcifc6US5qtp35BQdV/eY3Q==",
+      "path": "cloudscribe.dynamicpolicy.storage.efcore.common/6.0.2",
+      "hashPath": "cloudscribe.dynamicpolicy.storage.efcore.common.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.DynamicPolicy.Storage.EFCore.PostgreSql/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3RwaYDzz5kSPmnUMSyudThcUu2JZEkCa+ZlFzy/y6p0vLtCp9KsCGtx+pypkKz6ulgEmXkTwt+FV8ZQjQISEcQ==",
+      "path": "cloudscribe.dynamicpolicy.storage.efcore.postgresql/6.0.2",
+      "hashPath": "cloudscribe.dynamicpolicy.storage.efcore.postgresql.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.DynamicPolicy.Web.Mvc/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R4iBJrOfJBZm9YMC3mqhCevG+7nX6caNg7ZiDU9VL6dXPa6trgGsmZYSAox2YjBiEPxFmtFHF7BbCLeuDWybAg==",
+      "path": "cloudscribe.dynamicpolicy.web.mvc/6.0.1",
+      "hashPath": "cloudscribe.dynamicpolicy.web.mvc.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.DynamicPolicy.Web.Views.Bootstrap5/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uzcthqfacyKCE2GIOkjHQZK3qEoq2miRXRJnSEjwglKTS1YcIGFGYbxZEDO5SfacnSJx2fJnyRjYSMMiKJm6OQ==",
+      "path": "cloudscribe.dynamicpolicy.web.views.bootstrap5/6.0.1",
+      "hashPath": "cloudscribe.dynamicpolicy.web.views.bootstrap5.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.EFCore.PostgreSql.Conventions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UhN3/3mvzTPBO/+k7QQQyTUOPhYv/1aXUAsZPnvHTFyUsJRQvliymoUBl4SAGarSLgyAFcifakah93xL0Wsz4Q==",
+      "path": "cloudscribe.efcore.postgresql.conventions/6.0.0",
+      "hashPath": "cloudscribe.efcore.postgresql.conventions.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Email.Senders/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iarFf4bzuueGta6Z/5NUiW6cj0uYRKzBovBa/74wZA6PFkUvblMENf9yV4E6BuGhxK59khZzp4rB4qZyZV7RIA==",
+      "path": "cloudscribe.email.senders/6.0.0",
+      "hashPath": "cloudscribe.email.senders.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Email.Templating.Data.EFCore.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OJXfgWKo8IhzQZba+909QrETfw+0ja/mjJiwkdPVl71YcK4z9qc2lu5VDB2r/t+RBVfB9PadUV6ztipiIk9iLw==",
+      "path": "cloudscribe.email.templating.data.efcore.common/6.0.0",
+      "hashPath": "cloudscribe.email.templating.data.efcore.common.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Email.Templating.Data.EFCore.PostgreSql/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xw8dSsH7WPWdrlGzhGgnl3ZeyMMCKRCkQl76RfcwiiIwjTicbchj34okA4ErUxPUQeVe95uJK0BSVU2tnLAdIQ==",
+      "path": "cloudscribe.email.templating.data.efcore.postgresql/6.0.1",
+      "hashPath": "cloudscribe.email.templating.data.efcore.postgresql.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.Email.Templating.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QDiZyFnF7KkCQv7kIM7Bi9gcQ0VeuDzjH2Alxb2ww3A0gRsjHz/kLntPEAaHgYOmoOmZAfHPkmGZYepOWppVMQ==",
+      "path": "cloudscribe.email.templating.models/6.0.0",
+      "hashPath": "cloudscribe.email.templating.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Email.Templating.Services/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yrn7c/g7uRcceMAurSb7GRg2OP7THOPTbbP1Sx6m+d1/fqF/VOxeWqbkIekEwkMvGmfZdFmMWP4OZubfevUiNA==",
+      "path": "cloudscribe.email.templating.services/6.0.0",
+      "hashPath": "cloudscribe.email.templating.services.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Email.Templating.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tf9rf0Z13QAEk47sVV82e7wm6uvjbAWHWMjqQ/QTNeEbZFow0eYjurgvoOikkCcd+MUNs68Cn7HoAhgkLlrSqg==",
+      "path": "cloudscribe.email.templating.web/6.0.0",
+      "hashPath": "cloudscribe.email.templating.web.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.EmailList.CoreIntegration/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BwQ9ZaRHG2/vNE4Q5P/izTr4nUfiFOgFhRWUuC3PrTdIOqd23nOt42O8MxbC0WPRouZSfHwkK9nCfa7I/gepQg==",
+      "path": "cloudscribe.emaillist.coreintegration/6.0.1",
+      "hashPath": "cloudscribe.emaillist.coreintegration.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.EmailList.Data.EFCore.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-45b/Q2els7lgkuGpMKRTCruZiv09UeUHrdQKi2rQL9dQ2lyTs7Cyv8rDdUB7u0xn8XalDOYWbkvjMU54sIJaUg==",
+      "path": "cloudscribe.emaillist.data.efcore.common/6.0.0",
+      "hashPath": "cloudscribe.emaillist.data.efcore.common.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.EmailList.Data.EFCore.PostgreSql/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z+cLzul9xlbbkcuXlDqNAtO65lIDH3BVQ/N5LCvT1kGlSig3jSceM0kw3FVAzEkvPeUAADh0vxgkljbJ64DT7A==",
+      "path": "cloudscribe.emaillist.data.efcore.postgresql/6.0.1",
+      "hashPath": "cloudscribe.emaillist.data.efcore.postgresql.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.EmailList.KvpUserProperties.Integration/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T+187mrGNqBXHmvUruSYxWNRyqyS3nSuWIrSCFPYBfsIcWQtfkSW1kwafk/2Pk+SDSjptyq8sbJXoCNVufIY5A==",
+      "path": "cloudscribe.emaillist.kvpuserproperties.integration/6.0.1",
+      "hashPath": "cloudscribe.emaillist.kvpuserproperties.integration.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.EmailList.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J5AqIcj/g6p7tkB6KbduvKT9Uh+M6m63COpxb1K9bY6bq2djL344B37Tv3BsS8ouqSSPvP6TmopbBp2o49T54A==",
+      "path": "cloudscribe.emaillist.models/6.0.0",
+      "hashPath": "cloudscribe.emaillist.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.EmailList.Views.Bootstrap5/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zp1lYHzysBiE4VTMQNGB9VYuzulO31/U052u+K1eqSqvR+R0jMbiXJLwJtVDaEMjhJ616pu8sEZ9t7XHpq+llw==",
+      "path": "cloudscribe.emaillist.views.bootstrap5/6.0.2",
+      "hashPath": "cloudscribe.emaillist.views.bootstrap5.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.EmailList.Web.Mvc/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2FueCrSdOiWoygq9w0nFCC03UvyWecElgm7D5VbzJdXYK/ni5QQ+WjxNb+v1pnU9U6d0pSsLwl0acVk5b4d81A==",
+      "path": "cloudscribe.emaillist.web.mvc/6.0.4",
+      "hashPath": "cloudscribe.emaillist.web.mvc.6.0.4.nupkg.sha512"
+    },
+    "cloudscribe.EmailQueue.CoreIntegration/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Eoy5lh3LHth0+8/NvsyCy8WKIBY7S0Kdv6zuSy5GvIvso/b60ZzpjV+WM3Ymi/2y0b6vFgclwmBtFTY5ASc7kg==",
+      "path": "cloudscribe.emailqueue.coreintegration/6.0.2",
+      "hashPath": "cloudscribe.emailqueue.coreintegration.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.EmailQueue.Data.EFCore.Common/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F+qHKNHZUQTpwm7HCdT5ovVYcvnIiRCqhgxNFJs79fhwR6mRrgMMLnLJycXnV2rka/X0Y/LKhDSh7QThvOWtgg==",
+      "path": "cloudscribe.emailqueue.data.efcore.common/6.0.3",
+      "hashPath": "cloudscribe.emailqueue.data.efcore.common.6.0.3.nupkg.sha512"
+    },
+    "cloudscribe.EmailQueue.Data.EFCore.PostgreSql/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ciIBDJ7qPvnAfuROcjjTTIxIzRgH7na9ncWpwEFtE6IYjVKxuxkgnFcCSskutYYCRzm4bApgysjcjR8f++G01Q==",
+      "path": "cloudscribe.emailqueue.data.efcore.postgresql/6.0.3",
+      "hashPath": "cloudscribe.emailqueue.data.efcore.postgresql.6.0.3.nupkg.sha512"
+    },
+    "cloudscribe.EmailQueue.Models/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7zH9ygrThDzxYmwcQo/8HLgMOaozcA9sKOr77iyyD5oIehWgzlqOCJjwVjAvHUSG0UY2iRWEUIv10fjxsYU4gw==",
+      "path": "cloudscribe.emailqueue.models/6.0.2",
+      "hashPath": "cloudscribe.emailqueue.models.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.EmailQueue.Services/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ab4XkJGFr4BWe5b0HfpvUYHpSkV800wt2EvyCJyRCEEGfR58PlDUZaLEeTOj9Pb9jorwXu/Ee8ktV4HIpp4b2g==",
+      "path": "cloudscribe.emailqueue.services/6.0.2",
+      "hashPath": "cloudscribe.emailqueue.services.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.FileManager.CoreIntegration/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ScpX4RBmmXra0o066jTfDPVr4OLbfpu0uMW9FhxIZJKBXqc+cLt81czTvuM9om/cXP3IwbmC5yifIJJEVjptvQ==",
+      "path": "cloudscribe.filemanager.coreintegration/6.0.3",
+      "hashPath": "cloudscribe.filemanager.coreintegration.6.0.3.nupkg.sha512"
+    },
+    "cloudscribe.FileManager.Web/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+xVkJe7hpaG8cbFaOht03K20Z4SX+bE0tmWIVnBk39je0guITebqr6bQEO0oTLB53xG68CiyKuLZF6S60J0hmw==",
+      "path": "cloudscribe.filemanager.web/6.0.4",
+      "hashPath": "cloudscribe.filemanager.web.6.0.4.nupkg.sha512"
+    },
+    "cloudscribe.Forms.Bootstrap5/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-surs2q93gmEWFxh6h/P2Bx5Zf1EnKw2gIEe6pfoneS4CvbftxgAm6tyMtXcVpYk6HZSVoKoIyIwb4Sj/2P+/aA==",
+      "path": "cloudscribe.forms.bootstrap5/6.0.0",
+      "hashPath": "cloudscribe.forms.bootstrap5.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Forms.ContentTemplate.Bootstrap5/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gTIqttmAiuJK7Hf4BAr7BY6wo+vMOnhODoNWjK9ULbNVFRfbfnKVnGHeKtBxNBoHOSDMfEukbtYp8CEN3Eq5zA==",
+      "path": "cloudscribe.forms.contenttemplate.bootstrap5/6.0.0",
+      "hashPath": "cloudscribe.forms.contenttemplate.bootstrap5.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Forms.CoreIntegration/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hvs/HpukXcXIU8zTQCUd7x8UIHiupuM1cuuOJbu0KcGVH9SdAdmR7I/trfO8BK6cGkzyw/zWOfDzZPuwd5VQdw==",
+      "path": "cloudscribe.forms.coreintegration/6.0.0",
+      "hashPath": "cloudscribe.forms.coreintegration.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Forms.Data.EFCore.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X7kyV/ED93WHoEjwBbLEiM8gHobA/pk82fucg+NKMVsd8sjLmbbe36TQJPYEiollL/VsEiEQN2EcRB+zmf+8gg==",
+      "path": "cloudscribe.forms.data.efcore.common/6.0.0",
+      "hashPath": "cloudscribe.forms.data.efcore.common.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Forms.Data.EFCore.PostgreSql/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-11YxpnavlMHuSqYGt7U2z5BUExe1kCAmjI3cwU5WlUeUmTfyxMV8gYxe8xdOZowcYVN2cjiDyP3uCwPJkUKB6A==",
+      "path": "cloudscribe.forms.data.efcore.postgresql/6.0.1",
+      "hashPath": "cloudscribe.forms.data.efcore.postgresql.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.Forms.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TttlQjmxa32LJdNtxuurXQJgL0OuAlTJ3qIbUWdXVw0bZl0zc+AxuCSvlXaxeVsYIeCglzgdX29eZNCq71K6uw==",
+      "path": "cloudscribe.forms.models/6.0.0",
+      "hashPath": "cloudscribe.forms.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Forms.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UJpuQYFxZE8doVLeYvyVFM96l7j6dUPcg8pSXWzMrW/DCa/ybAIEgG+tmTSrHnAkZQO7GeOYwnDLB38MEZZLcA==",
+      "path": "cloudscribe.forms.web/6.0.0",
+      "hashPath": "cloudscribe.forms.web.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.HtmlAgilityPack/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N/rCJ86lJyuLNXfTQmbEStjJTDuZtPaliFPtrxplOEaOwdmBufh5T7cAemHMvMpkLVeU2NYyCyDhMHUuQKhjXg==",
+      "path": "cloudscribe.htmlagilitypack/1.0.1",
+      "hashPath": "cloudscribe.htmlagilitypack.1.0.1.nupkg.sha512"
+    },
+    "cloudscribe.Kvp.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mr/zK8Z5Sypk8kpAZwXQ3TYLeZbshAG4byBY6z3Oim8GPXqj6d6mgh5zx6RbrjgU/z3gssu9TVMp+VzcpPjtkQ==",
+      "path": "cloudscribe.kvp.models/6.0.0",
+      "hashPath": "cloudscribe.kvp.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Kvp.Storage.EFCore.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z+bGMmmUagtyQWqcUUleowxofM5BRn2GmCv+VBGf98TZuJ6ooCzr972wufHZiPKvfnpNyKIAsxZm2u3S09ozrg==",
+      "path": "cloudscribe.kvp.storage.efcore.common/6.0.0",
+      "hashPath": "cloudscribe.kvp.storage.efcore.common.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Kvp.Storage.EFCore.PostgreSql/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-51JTUxMEq74oE/yi3u8o01Tbidb0scU3BF8lJZR75TXWVpjzYtcf61x/etQoxOM3g3Iuhf3PCFOyf0ltCOWbpQ==",
+      "path": "cloudscribe.kvp.storage.efcore.postgresql/6.0.1",
+      "hashPath": "cloudscribe.kvp.storage.efcore.postgresql.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.Logging/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e15RD2qlRM62st+0U2JzbPqzqPmt4U7sP+lC4C9GcjddNaydNnJq8BAnN14fjrUpG6etreVa5IrquODbiwbJow==",
+      "path": "cloudscribe.logging/6.0.0",
+      "hashPath": "cloudscribe.logging.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Logging.EFCore.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wr1LoUOk3ufDMzg3qS5k0QyfB++bF2tSlerr/aVGivpw3nlIlT1D0u0nR8a1wtRyyEPZwVHL/+syE+C0DBsYDw==",
+      "path": "cloudscribe.logging.efcore.common/6.0.0",
+      "hashPath": "cloudscribe.logging.efcore.common.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Logging.EFCore.PostgreSql/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m4qjuQAmZfLxmawpCcEeQ7a+Pw70jYVn06jEtow6Dl0BSIieyNEZrT/EbgwKkfGpRiEdVDD3wtlieoqFZ9QfpQ==",
+      "path": "cloudscribe.logging.efcore.postgresql/6.0.0",
+      "hashPath": "cloudscribe.logging.efcore.postgresql.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Logging.Web/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X/b3iBD/QBZLoevI8q4D5v3/JdNr8MeMTGnzqY8MeldaG+SchPl1NG0507o5cZ8/JI/rOVxBgS1sijC8PpMCRw==",
+      "path": "cloudscribe.logging.web/6.0.1",
+      "hashPath": "cloudscribe.logging.web.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.MetaWeblog/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MYLbokNjIMpMTkdu9CGaOaAZ0ulcU8GULnQHABVl0mPzaqxr281Bet8KCAo1hyT+V1Pugfzf6sLOoth7CVM4+A==",
+      "path": "cloudscribe.metaweblog/6.0.0",
+      "hashPath": "cloudscribe.metaweblog.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.MultiTenancy/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IOTAuN5YAu3kW0LDZdjYv2xy8F1KVeieumoaootgHOsJTyRldCG3gfgndeCURhdWHaeXEJJuWJGxzbenc64mHg==",
+      "path": "cloudscribe.multitenancy/6.0.0",
+      "hashPath": "cloudscribe.multitenancy.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Pagination.Models/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RR2IPdUfavFEls5AF32p9D2S993M/wsxIlO2DX9nlgH+zEl4l0800AQSucdarUOuhAEbmXRr+dtgxcTOLuKXrw==",
+      "path": "cloudscribe.pagination.models/1.1.0",
+      "hashPath": "cloudscribe.pagination.models.1.1.0.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContactForm/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SoFdNKk/+jnVb++odOsL8dWQYtVRiqhKg7zhcL2LYRS+GSSjShnWBlIrGFaaG1zir7qVtiW17114HBtLpF+27g==",
+      "path": "cloudscribe.simplecontactform/6.0.1",
+      "hashPath": "cloudscribe.simplecontactform.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContactForm.CoreIntegration/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GcADbG1HNQn7FQqJddu/0FOv6d3b68aIEIyZwsvzY48pf1fLmIzlZQ4ek7q6AJgOzpCFfIk6jaFl9rMG7zXmdA==",
+      "path": "cloudscribe.simplecontactform.coreintegration/6.0.1",
+      "hashPath": "cloudscribe.simplecontactform.coreintegration.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContent.CompiledViews.Bootstrap5/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H/I76HRxNGuq0Xp94x5fzAqxsBf3zzS7tjBRG6JEXKXXwvRjbfqHxWO1258HkGx9CNVJMiLh2yaMHPN4Y2zQ6w==",
+      "path": "cloudscribe.simplecontent.compiledviews.bootstrap5/6.0.2",
+      "hashPath": "cloudscribe.simplecontent.compiledviews.bootstrap5.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContent.ContentTemplates.Bootstrap5/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aUBxn6NOL7/8liZ3MfhORXtJeg6qaTc8nBRWs89ApHnZ/pSNPGFdXnX/s5E4Q3pu8Clmpc5IwT/nQb9ZG9QHrw==",
+      "path": "cloudscribe.simplecontent.contenttemplates.bootstrap5/6.0.2",
+      "hashPath": "cloudscribe.simplecontent.contenttemplates.bootstrap5.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContent.MetaWeblog/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-24AkhhFu3Sc69T7bYYFHfTD6zOav+OZQ/M1vz9EKZRysOiOO46fqYrUqD0DPnkzwJP+LyhebDjasCgo77vnp+A==",
+      "path": "cloudscribe.simplecontent.metaweblog/6.0.0",
+      "hashPath": "cloudscribe.simplecontent.metaweblog.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContent.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xJdDGxOCjeWRgWpFUNzlVHSsodlZKAwDCzXdEo+G1q/0iL0Kd9rdxC+pV/TM5bHZWiVr58YugXzlOFPhcEZfBw==",
+      "path": "cloudscribe.simplecontent.models/6.0.0",
+      "hashPath": "cloudscribe.simplecontent.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContent.Storage.EFCore.Common/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aoGW91A1TNML77oKbTMO+1+oltfbicLaDBOKv37qVA+21s5iHthP1+WbkGQCq0/tPbYXQn7BQf2NlkYHiKSAIQ==",
+      "path": "cloudscribe.simplecontent.storage.efcore.common/6.0.2",
+      "hashPath": "cloudscribe.simplecontent.storage.efcore.common.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContent.Storage.EFCore.PostgreSql/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+xeoFFWv6cjmY/LRlhD0T8eN+GyM7zR+idU77VyenTP0yD5dOeLK2e2N31BcNOTNSHxGRhTrgEA73Djjqrr/eA==",
+      "path": "cloudscribe.simplecontent.storage.efcore.postgresql/6.0.3",
+      "hashPath": "cloudscribe.simplecontent.storage.efcore.postgresql.6.0.3.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContent.Syndication/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hmw7J5a3dS9lGJ/qQIn7f6CGcLlQMmTiBZvxuoOBDJ3agJcQYRIDHLm7+U7uTSEiQGDfLf0L+p8bqTYvVrFJ3Q==",
+      "path": "cloudscribe.simplecontent.syndication/6.0.0",
+      "hashPath": "cloudscribe.simplecontent.syndication.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.SimpleContent.Web/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wU7T/sjV8f+N13DLJR1Oz7BAi5WiIoGCH4NkWXhri64HInDgDar6dwRnBthwZLwRdMSLZDyCm4ZW6l69CCy/zQ==",
+      "path": "cloudscribe.simplecontent.web/6.0.3",
+      "hashPath": "cloudscribe.simplecontent.web.6.0.3.nupkg.sha512"
+    },
+    "cloudscribe.Syndication/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ndRfufROiBcdBNbkhEy2O8w3v9OJLnxGZJbfrM6z+cSoBMWGqCS1HTJT6Kk5NaZB+8o/gypKuxcyHZEhM1Ub+g==",
+      "path": "cloudscribe.syndication/6.0.0",
+      "hashPath": "cloudscribe.syndication.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Syndication.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NbIVJUEIvzSZbQWV/YJTCepkWVyGj6Tkafo/0vLHGQ6G6wXKxLSFRTJOgU694pB8x5fq4qJe6ZdmU7e290ir7g==",
+      "path": "cloudscribe.syndication.web/6.0.0",
+      "hashPath": "cloudscribe.syndication.web.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Comments.Integration.CloudscribeCore/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GBf6ijHQuJT7FhYyqaH/01S9RSUgfQkMlSBguNXHmeixo4Rjve6ZSGPde6a1TMrsYrh1W53mQU8qrcTpagItUA==",
+      "path": "cloudscribe.talkabout.comments.integration.cloudscribecore/6.0.0",
+      "hashPath": "cloudscribe.talkabout.comments.integration.cloudscribecore.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Forum.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3KcVAAaxpdtsyrMFdJt18nG2MuqG85ULZSvVDymkmvQPVx6N/i6+u9PEVOETtA1rEuOo72Z+KWPvZWBddtRspg==",
+      "path": "cloudscribe.talkabout.forum.models/6.0.0",
+      "hashPath": "cloudscribe.talkabout.forum.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Forum.Storage.EFCore.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oZmUMbL+fHKGYCPmsiJobqUbfQ++OWGyY+0yv2oL3Dpf4D3Qg8RhpyUZFFbCf3E1YMi6ofMIAAZb/cFfqgUVJw==",
+      "path": "cloudscribe.talkabout.forum.storage.efcore.common/6.0.0",
+      "hashPath": "cloudscribe.talkabout.forum.storage.efcore.common.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Forum.Storage.EFCore.PostgreSql/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f/p3hH742W5pxSspr4CDcGkTeApxY5zs691GykqycWSF16/8OgFPkQVP67XscL66UVcMKji4NECeQkCyEN25kA==",
+      "path": "cloudscribe.talkabout.forum.storage.efcore.postgresql/6.0.1",
+      "hashPath": "cloudscribe.talkabout.forum.storage.efcore.postgresql.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Forum.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uj/Pjqcaxn3vxxnNkKughr4OVvqrEwczMRBOYvNiRwhuzwoRObgBcCisvSWCQ8cGipZ8Ccv7ybJ445GugzsXYQ==",
+      "path": "cloudscribe.talkabout.forum.web/6.0.0",
+      "hashPath": "cloudscribe.talkabout.forum.web.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Forum.Web.Bootstrap5/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wyjvacntHyOz4326aRyNFifQCOrEWq33cGlfjt8uiZ8Tmo6ZJWTp0EkBHcIwGWImj1Vx292DF5d2W9zszulSIw==",
+      "path": "cloudscribe.talkabout.forum.web.bootstrap5/6.0.0",
+      "hashPath": "cloudscribe.talkabout.forum.web.bootstrap5.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Integration.CloudscribeCore/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WifN0W5y1C8xKLLpkYVL6EGst4iaTB+rWPvF/H0hC2c/orqt9McnFEmiweQOHvZ42FnvCWhzZKLSZ/jwiwfVTg==",
+      "path": "cloudscribe.talkabout.integration.cloudscribecore/6.0.1",
+      "hashPath": "cloudscribe.talkabout.integration.cloudscribecore.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Integration.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gS/y0LenyP3YdnzHKeMWWcjlGx6EFtBIqQqeMx004TL8vcksRKaVGrV67jtOdMhoDNIdX1ks/CQK50+wvQrMcQ==",
+      "path": "cloudscribe.talkabout.integration.models/6.0.0",
+      "hashPath": "cloudscribe.talkabout.integration.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Models/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DvTD0iZHe5oR4+7EGQneo0V61py8ig7uV35FJ5MUF/iPgFnfYmbOQWLXOx28nJODXtrrWMoF7VUEyp+HzmxztQ==",
+      "path": "cloudscribe.talkabout.models/6.0.0",
+      "hashPath": "cloudscribe.talkabout.models.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Storage.EFCore.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sKmVtY+UkVIYtLLdXAUlkZMduo/ELECpcbQGimmCepU+bTGHZJlxBur9AAGs9Yl5YrBkiUBFnR7JQ3E0ts1Bgg==",
+      "path": "cloudscribe.talkabout.storage.efcore.common/6.0.0",
+      "hashPath": "cloudscribe.talkabout.storage.efcore.common.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Storage.EFCore.PostgreSql/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXFLFt9Ga8RIudfjqkm+THtJ0yWh8agJdzB+663uFV5iVXx4IS3318vEZ2kFugL34i9p34EK6o1SAHO4CDKp2A==",
+      "path": "cloudscribe.talkabout.storage.efcore.postgresql/6.0.1",
+      "hashPath": "cloudscribe.talkabout.storage.efcore.postgresql.6.0.1.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-itgxzETECieMai7zIK1P2Ijdsk1HWeCROHvk8WQYUORWjlp3Cby3V4PUZ35pMUZGGxhlXpFm/t7haJopP36k+g==",
+      "path": "cloudscribe.talkabout.web/6.0.0",
+      "hashPath": "cloudscribe.talkabout.web.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.TalkAbout.Web.Bootstrap5/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dkOrw3bhpFpQx5PMEaVVDy1R9B4y6elUOzyXHF+1uFBjN/yS0M4jP+aGl5+PnLhQ4u3nAbUBbgph0EI817VvJQ==",
+      "path": "cloudscribe.talkabout.web.bootstrap5/6.0.0",
+      "hashPath": "cloudscribe.talkabout.web.bootstrap5.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.UserProperties/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PGmLDuVJ0x95dPK+31dpeQTjnKXLl4OeIB+gy2I8TTY6SqVc8Mq0L9UZCYr58eypQ8izebBHqCYE9aW8zpjWMg==",
+      "path": "cloudscribe.userproperties/6.0.0",
+      "hashPath": "cloudscribe.userproperties.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.UserProperties.Kvp/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kFxR/y4sBC/QKVq6mr8WdiwYrQ0wwMYO4JLRIMwK5XbNBxQoG1n5AkNuQEKsraACBKKHqg7HnKspho4UHFjbuA==",
+      "path": "cloudscribe.userproperties.kvp/6.0.0",
+      "hashPath": "cloudscribe.userproperties.kvp.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Versioning/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j5x27YpvCmmiCJttDtK4BQzVxMPZTBjc6VmQ1XkMd0GxhKh4jFl8wDAEC/D7eCDjdjG2Ry7A2m/RFOuUIOj7KA==",
+      "path": "cloudscribe.versioning/6.0.0",
+      "hashPath": "cloudscribe.versioning.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Web.Common/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H/QDeEXSSx1KLGRRdBHVMce5XoAFnU6wm8bl8gCghXI5x0CYD/GSezoWIF/WnEdntactUGfrvaJrvTzA6KwKiw==",
+      "path": "cloudscribe.web.common/6.0.3",
+      "hashPath": "cloudscribe.web.common.6.0.3.nupkg.sha512"
+    },
+    "cloudscribe.Web.Localization/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mjAsrdC3fV/WppLXjJBpOBHOhdLV2nki6VTE9jXBiGuZ9Y7lgnntcsDPjmTjYG505UMd9u2P1zZQjODG/m4gWA==",
+      "path": "cloudscribe.web.localization/6.0.0",
+      "hashPath": "cloudscribe.web.localization.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Web.Navigation/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H8FMF2H8CaKImCJ3JbW2gJ9LjYMXULiSbHcQbzT76hNcWRQto5DesXqs327lV5KTugOLuHfs99ER5Fxj0DjALA==",
+      "path": "cloudscribe.web.navigation/6.0.2",
+      "hashPath": "cloudscribe.web.navigation.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.Web.Pagination/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6f9M7BsafnMcJhhoF2GWun+C+7N2w66dgOk0gsw3dSyOJ1L5VV3l1BDq3fUuPgIsUxl9G64mHoyMQOGTMHK0TA==",
+      "path": "cloudscribe.web.pagination/6.0.0",
+      "hashPath": "cloudscribe.web.pagination.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Web.SiteMap/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LwijimGJRfM3KkGGgyOPn4Nb2pGvHt3ARCN7fn2GT6k8jGhOjorOGRJQAlLY8ffj2SBAAsMrhRu6Ucg4u9lXlw==",
+      "path": "cloudscribe.web.sitemap/6.0.0",
+      "hashPath": "cloudscribe.web.sitemap.6.0.0.nupkg.sha512"
+    },
+    "cloudscribe.Web.SiteMap.FromNavigation/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9Z5LezVq0zQuq2AfYmntxjRzJThyxMau0L479ZIELGHnslurR6+jR+VMIVg89DLNxVFo533RS14zCqrod0mfQ==",
+      "path": "cloudscribe.web.sitemap.fromnavigation/6.0.2",
+      "hashPath": "cloudscribe.web.sitemap.fromnavigation.6.0.2.nupkg.sha512"
+    },
+    "cloudscribe.Web.StaticFiles/6.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l0jQcaLynSjYUCvllne8CUw0TI8/dnoOqA9MfAZITXqzHroQi9E6i3Vp+LFM3oqqpqcgQnO+CmR9De8otAAtNA==",
+      "path": "cloudscribe.web.staticfiles/6.0.11",
+      "hashPath": "cloudscribe.web.staticfiles.6.0.11.nupkg.sha512"
+    },
+    "CsvHelper/12.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xiqj0fZfrQrxsN6CdW+u2YNKoUE67q601rb0EmWTSWEjRKJuMPFmj/nb9jnnSO3/rHPFKzWfM/g8MoBJzf/N9g==",
+      "path": "csvhelper/12.1.0",
+      "hashPath": "csvhelper.12.1.0.nupkg.sha512"
+    },
+    "Humanizer.Core/2.8.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "path": "humanizer.core/2.8.26",
+      "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "IdentityModel/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y7i2fezKKKnmxdENfEOpby4Es84e76D16SYcxWKggYraFOvvfKfQAn5KGuuR1X2h1aTrlKZy0lct0NxHg4aVVw==",
+      "path": "identitymodel/4.0.0",
+      "hashPath": "identitymodel.4.0.0.nupkg.sha512"
+    },
+    "MailKit/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/az267eMAng48hSeIliTZeCJM3YTuG1MtSDuZ2JpidMhG+PME0oEKBBxRx1fykpyOAAsw23UyUvHgHXoOlU7wA==",
+      "path": "mailkit/3.0.0",
+      "hashPath": "mailkit.3.0.0.nupkg.sha512"
+    },
+    "Markdig/0.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G2cLalkZRX85n8AFCzNyjvn1uc9q7VjZbkTKDyLIgSVx/2d4HA02prnuNcsMQTyfqE8k8ZWxGumkhSwGyE9zCQ==",
+      "path": "markdig/0.16.0",
+      "hashPath": "markdig.0.16.0.nupkg.sha512"
+    },
+    "MediatR/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
+      "path": "mediatr/7.0.0",
+      "hashPath": "mediatr.7.0.0.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DRf8jBnjBg84da1L1L0YmwqkhCV+UJTg7bTBHOhleWrLfrtSK5h5aNeE1HOofs1Afisq03B6H2C10NmS47gmqA==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RR39ZVeXlOTGF9omTnbc4eU30+ou5g8F8H4l4xMtUh5jZowoPL9M6vFc6MgfCWg3n1UW9RvzdgsrO7kq4uMCuA==",
+      "path": "microsoft.aspnetcore.authentication.facebook/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TToorF3zDoDSDj639jqD0JkrjQaAfK1vI61Xwrtnf2gToIQQSRAY7A6S4qPYROE6n31sEyWKPlAVoSW1u7Jysw==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.MicrosoftAccount/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IJp8rePvnhexRYq0gBNcUTra1Cgz1/HR2vOjbnm7RA57U0UqXNWODhlsEP9ZTtMMon1uZIxRHUpFsr4S5gVmkQ==",
+      "path": "microsoft.aspnetcore.authentication.microsoftaccount/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.microsoftaccount.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJxdro36spFzk/K2OFCddM6vZ+yoj6ug8mTFRH3Gdv1Pul/buSuCtfb/FSCp31UmS5S4C1315dU7wX3ErLFuDg==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Twitter/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8oAzD8LFbhlX9s8M+Vq4kXu77JV53IGCQGKl9aY/CJloLn+RF5gkV9YRK9Kt7nHsc1Jbr7v6dkqqaKkavmOSrA==",
+      "path": "microsoft.aspnetcore.authentication.twitter/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.twitter.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZWFBiHwkmipr+7t3MEPa7oB/iE8Kf5wvUptn9AXj7P7l/tGHEmRb1606Mlh/e2zkYwfjNGDH4Z5dUUlcnyccIw==",
+      "path": "microsoft.aspnetcore.cryptography.internal/6.0.0",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CcYIcGn/zJFY0zq84V4r9Xd4aQn2/+8tsiRBYnhS/LVgWNDq7EsWxmLJ+bXWBBdpTHA+IKvXTag9YElFKFHWYQ==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.0",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.JsonPatch/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-03Z8sRA1Rxu7X2CRz6aPZkrbEX9IzD7wb/+yF1LU0U/g0hLWi7ynGovIe2aeHhk7Gsznwr3AAP2D9s5SO7v5KQ==",
+      "path": "microsoft.aspnetcore.jsonpatch/3.1.3",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.3.1.3.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-71aKJMt9u1WE3/ji17FaIF/RgxZkL3mE7Rf27e08wpg25xWDKo2fvJLHu9R3niYnLgxyCqE7AKgm5FqG2WVGcA==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/3.1.3",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.3.1.3.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BdHAtHzfQt3rltgSoYamSlHg2qawPtEDT677/bcSJlO8lQ/lj6XWlusM0TOt59O8Sbqm3hAC1a+4cEBxmv56pw==",
+      "path": "microsoft.entityframeworkcore/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MrMLWEw4JsZdkVci0MkkGj+fSjZrXnm3m6UNuIEwytiAAIZPvJs3iPpnzfK4qM7np82W374voYm96q7QCdL0ow==",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BqWBL05PUDKwPwLeQCJdc2R4cIUycXV9UmuSjYfux2fcgyet8I2eYnOWlA7NgsDwRVcxW26vxvNQ0wuc8UAcLA==",
+      "path": "microsoft.entityframeworkcore.analyzers/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Design/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RFdomymyuPNffl+VPk7osdxCJQ0xlGuxr28ifdfFFNUaMK0OYiJOjr6w9z3kscOM2p2gdPWNI1IFUXllEyphow==",
+      "path": "microsoft.entityframeworkcore.design/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.design.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTRzrSbkUXoCGijlT9O7oq7JfuaU1/+VFyfSBjADQuOsfa0FCrWeB8ybue5CDvO/D6uW0kvPvlKfY2kwxXOOdg==",
+      "path": "microsoft.entityframeworkcore.relational/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bcz5sSFJbganH0+YrfvIjJDIcKNW7TL07C4d1eTmXy/wOt52iz4LVogJb6pazs7W0+74j0YpXFErvp++Aq5Bsw==",
+      "path": "microsoft.extensions.caching.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ve3BlCzhAlVp5IgO3+8dacAhZk1A0GlIlFNkAcfR2TfAibLKWIt5DhVJZfu4YtW+XZ89OjYf/agMcgjDtPxdGA==",
+      "path": "microsoft.extensions.caching.memory/6.0.0",
+      "hashPath": "microsoft.extensions.caching.memory.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
+      "path": "microsoft.extensions.configuration/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
+      "path": "microsoft.extensions.configuration.binder/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V4Dth2cYMZpw3HhGw9XUDIijpI6gN+22LDt0AhufIgOppCUfpWX4483OmN+dFXRJkJLc8Tv0Q8QK+1ingT2+KQ==",
+      "path": "microsoft.extensions.configuration.fileextensions/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GJGery6QytCzS/BxJ96klgG9in3uH26KcUBbiVG/coNDXCRq6LGVVlUT4vXq34KPuM+R2av+LeYdX9h4IZOCUg==",
+      "path": "microsoft.extensions.configuration.json/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.json.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9uQbDTqX1MidhoZFUSK1JItt74IapEadFDOIWAlBIKxr3O/ZEWLWkLYGlgUeP1Dkyog6/CB7h1EAU3xADYZ/lA==",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QvkL7l0nM8udt3gfyu0Vw8bbCXblxaKOl7c2oBfgGy4LCURRaL9XWZX1FWJrQc43oMokVneVxH38iz+bY1sbhg==",
+      "path": "microsoft.extensions.fileproviders.physical/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ip8jnL1aPiaPeKINCqaTEbvBFDmVx9dXQEBZ2HOBRXPD1eabGNqP/bKlsIcp7U2lGxiXd5xIhoFcmY8nM4Hdiw==",
+      "path": "microsoft.extensions.filesystemglobbing/6.0.0",
+      "hashPath": "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GcT5l2CYXL6Sa27KCSh0TixsRfADUgth+ojQSD5EkzisZxmGFh7CwzkcYuGwvmXLjr27uWRNrJ2vuuEjMhU05Q==",
+      "path": "microsoft.extensions.hosting.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-15+pa2G0bAMHbHewaQIdr/y6ag2H3yh4rd9hTXavtWDzQBkvpe2RMqFg8BxDpcQWssmjmBApGPcw93QRz6YcMg==",
+      "path": "microsoft.extensions.http/6.0.0",
+      "hashPath": "microsoft.extensions.http.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Identity.Core/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-coWZViIBVb1szN3zMMa6KYP9KmJzOniwQ5tySbiFmVW6Nbdy1KuNDNzIKQcigmfqS4aLWVvNLGCFyDJWYskS8g==",
+      "path": "microsoft.extensions.identity.core/6.0.0",
+      "hashPath": "microsoft.extensions.identity.core.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Identity.Stores/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3TniGyXEuFLQhJoiEReGD4HAdSKRxuQX5FDDg4GwFeeB36en4xQC5MVuWx1riiNwmh2eMtXq/wLdaJLd6JXIig==",
+      "path": "microsoft.extensions.identity.stores/6.0.0",
+      "hashPath": "microsoft.extensions.identity.stores.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WS/BXvYSh0yGAXvKYvqGLzmhe4raIxmsLwd3pqg0T/zmTMy44PFiTbJm41F2GcPsv3zAV34jcs5aPjjE8td8bA==",
+      "path": "microsoft.extensions.localization/6.0.0",
+      "hashPath": "microsoft.extensions.localization.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UQJmE78r414kbguPmvbT6MIz0r8LPsBhjLNOlpXOP1VVjaSIuUMATfAve8Q+oivwNG3Mnv+5OLZHfaBkB4SuUg==",
+      "path": "microsoft.extensions.localization.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.localization.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIbyj40QDg1NDz0HBW0S5f3wrLVnKWnDJ/JtZ+yJDFnDj90VoPuoPmFkeaXrtu+0cKm5GRAwoDf+dBWXK0TUdg==",
+      "path": "microsoft.extensions.logging/6.0.0",
+      "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXWINbTn0vC0FYc9GaQTISbxhQLAMrvtbuvD9N6JelEaIS/Pr62wUCinrq5bf1WRBGczt1v4wDhxFtVFNcMdUQ==",
+      "path": "microsoft.extensions.options.configurationextensions/6.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0qjS31rN1MQTc46tAYbzmMTSRfdV5ndZxSjYxIGqKSidd4wpNJfNII/pdhU5Fx8olarQoKL9lqqYw4yNOIwT0Q==",
+      "path": "microsoft.identitymodel.jsonwebtokens/6.10.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zbcwV6esnNzhZZ/VP87dji6VrUBLB5rxnZBkDMqNYpyG+nrBnBsbm4PUYLCBMUflHCM9EMLDG0rLnqqT+l0ldA==",
+      "path": "microsoft.identitymodel.logging/6.10.0",
+      "hashPath": "microsoft.identitymodel.logging.6.10.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DFyXD0xylP+DknCT3hzJ7q/Q5qRNu0hO/gCU90O0ATdR0twZmlcuY9RNYaaDofXKVbzcShYNCFCGle2G/o8mkg==",
+      "path": "microsoft.identitymodel.protocols/6.10.0",
+      "hashPath": "microsoft.identitymodel.protocols.6.10.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LVvMXAWPbPeEWTylDrxunlHH2wFyE4Mv0L4gZrJHC4HTESbWHquKZb/y/S8jgiQEDycOP0PDQvbG4RR/tr2TVQ==",
+      "path": "microsoft.identitymodel.protocols.openidconnect/6.10.0",
+      "hashPath": "microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qbf1NslutDB4oLrriYTJpy7oB1pbh2ej2lEHd2IPDQH9C74ysOdhU5wAC7KoXblldbo7YsNR2QYFOqQM/b0Rsg==",
+      "path": "microsoft.identitymodel.tokens/6.10.0",
+      "hashPath": "microsoft.identitymodel.tokens.6.10.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
+      "path": "microsoft.win32.primitives/4.3.0",
+      "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
+    },
+    "MimeKit/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k7FxYFU/G45Cd/VEVIUBW45pahJ9DGU1KbQqeQhT1wfmPAFlfHm3HLf6/sioRvzAdSC9kco6XeZAq7Ghtob6Cw==",
+      "path": "mimekit/3.0.0",
+      "hashPath": "mimekit.3.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
+      "path": "netstandard.library/1.6.1",
+      "hashPath": "netstandard.library.1.6.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json.Bson/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "NodaTime/2.4.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qXOjY8467lqeOLDOZa7TmHL4jvlMDz9xcQuMXgXW7fvVXJNMx1Z6DBVozK+FMzH4eHscccfpgJmv8ua9s8mtbA==",
+      "path": "nodatime/2.4.7",
+      "hashPath": "nodatime.2.4.7.nupkg.sha512"
+    },
+    "Npgsql/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8m2AXZgX7b/VYL6D7aQ1M/hu7vQ+QvVHxaHelriupN2hZqEhcwJkPiICLBVSX/+xm+iN8mZVEUvD7ujmgpTgLw==",
+      "path": "npgsql/6.0.0",
+      "hashPath": "npgsql.6.0.0.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3laelDbRuri90YL+RAezn1VWEkrzaYkKq8OJ2vzAp6In9c8UqkaFMidIHyS9ipIerrv5Qo+mU55+8s5mrCiAvg==",
+      "path": "npgsql.entityframeworkcore.postgresql/6.0.0",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.6.0.0.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "path": "portable.bouncycastle/1.9.0",
+      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+    },
+    "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
+      "path": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+yH1a49wJMy8Zt4yx5RhJrxO/DBDByAiCzNwiETI+1S4mPdCu0OY4djdciC7Vssk0l22wQaDLrXxXkp+3+7bVA==",
+      "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c3YNH1GQJbfIPJeCnr4avseugSqPrxwIqzthYyZDN6EuOyNOzq+y2KSUfRcXauya1sF4foESTgwM5e1A8arAKw==",
+      "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.native.System/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
+      "path": "runtime.native.system/4.3.0",
+      "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Compression/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
+      "path": "runtime.native.system.io.compression/4.3.0",
+      "hashPath": "runtime.native.system.io.compression.4.3.0.nupkg.sha512"
+    },
+    "runtime.native.System.Net.Http/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZVuZJqnnegJhd2k/PtAbbIcZ3aZeITq3sj06oKfMBSfphW3HDmk/t4ObvbOk/JA/swGR0LNqMksAh/f7gpTROg==",
+      "path": "runtime.native.system.net.http/4.3.0",
+      "hashPath": "runtime.native.system.net.http.4.3.0.nupkg.sha512"
+    },
+    "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DloMk88juo0OuOWr56QG7MNchmafTLYWvABy36izkrLI5VledI0rq28KGs1i9wbpeT9NPQrx/wTf8U2vazqQ3Q==",
+      "path": "runtime.native.system.security.cryptography.apple/4.3.0",
+      "hashPath": "runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512"
+    },
+    "runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NS1U+700m4KFRHR5o4vo9DSlTmlCKu/u7dtE5sUHVIPB+xpXxYQvgBgA6wEIeCz6Yfn0Z52/72WYsToCEPJnrw==",
+      "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3pthNgxxFcD+Pc0WSEoC0+md3MyhRS6aCEeenvNE3Fdw1HyJ18ZhRFVJJzIeR/O/jpxPboB805Ho0T3Ul7w8A==",
+      "path": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KeLz4HClKf+nFS7p/6Fi/CqyLXh81FpiGzcmuS8DGi9lUqSnZ6Es23/gv2O+1XVGfrbNmviF7CckBpavkBoIFQ==",
+      "path": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
+      "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
+      "hashPath": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512"
+    },
+    "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X7IdhILzr4ROXd8mI1BUCQMSHSQwelUlBjF1JyTKCjXaOGn2fB4EKBxQbCK2VjO3WaWIdlXZL3W6TiIVnrhX4g==",
+      "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nyFNiCk/r+VOiIqreLix8yN+q3Wga9+SE8BCgkf+2BwEKiNx6DyvFjCgkfV743/grxv8jHJ8gUK4XEQw7yzRYg==",
+      "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ytoewC6wGorL7KoCAvRfsgoJPJbNq+64k2SqW6JcOAebWsFUvCCYgfzQMrnpvPiEl4OrblUlhF2ji+Q1+SVLrQ==",
+      "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I8bKw2I8k58Wx7fMKQJn2R8lamboCAiHfHeV/pS65ScKWMMI0+wJkLYlEKvgW1D/XvSl/221clBoR2q9QNNM7A==",
+      "path": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
+      "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
+      "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "SendGrid/9.25.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vMRMHrpCH2m1GjlCOc0i3Llr539N9H6fDzXiJXnRYup0QC+b2C1y0ns+AXmTsMAtHOT4SARICkN3JgdKFuOm4Q==",
+      "path": "sendgrid/9.25.1",
+      "hashPath": "sendgrid.9.25.1.nupkg.sha512"
+    },
+    "SixLabors.Fonts/1.0.0-beta18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-evykNmy/kEE9EAEKgZm3MNUYXuMHFfmcLUNPw7Ho5q7OI96GFkkIxBm+QaKOTPBKw+L0AjKOs+ArVg8P40Ac9g==",
+      "path": "sixlabors.fonts/1.0.0-beta18",
+      "hashPath": "sixlabors.fonts.1.0.0-beta18.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o0v/J6SJwp3RFrzR29beGx0cK7xcMRgOyIuw8ZNLQyNnBhiyL/vIQKn7cfycthcWUPG3XezUjFwBWzkcUUDFbg==",
+      "path": "sixlabors.imagesharp/3.0.1",
+      "hashPath": "sixlabors.imagesharp.3.0.1.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp.Drawing/1.0.0-beta15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HMb/JNtNsSOr0lh71s5jD4Bv7sUwTxhGz2fOtuXcInQ4p9SB+1oEY3I6PrKXHpOCKaYArLD5r/4mA8t0dT/M5A==",
+      "path": "sixlabors.imagesharp.drawing/1.0.0-beta15",
+      "hashPath": "sixlabors.imagesharp.drawing.1.0.0-beta15.nupkg.sha512"
+    },
+    "starkbank-ecdsa/1.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OblOaKb1enXn+dSp7tsx9yjwV+/BEKM9jFhshIkZTwCk7LuTFTp+wSon6rFzuPiIiTGtvVWQNUw2slHjGktJog==",
+      "path": "starkbank-ecdsa/1.3.3",
+      "hashPath": "starkbank-ecdsa.1.3.3.nupkg.sha512"
+    },
+    "sts.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LtcTAWJ7J2KHaPhkoItGs67tukm/i9mNhl6z6WkQJ1uNOyky6hBE0vbE3gVK6oFlkq9AEOCWzWIHFvXF4ZdSbw==",
+      "path": "sts.common/6.0.0",
+      "hashPath": "sts.common.6.0.0.nupkg.sha512"
+    },
+    "System.AppContext/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
+      "path": "system.appcontext/4.3.0",
+      "hashPath": "system.appcontext.4.3.0.nupkg.sha512"
+    },
+    "System.Buffers/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ratu44uTIHgeBeI0dE8DWvmXVBSo4u7ozRZZHOMmK/JPpYyo0dAfgSiHlpiObMQ5lEtEyIXA40sKRYg5J6A8uQ==",
+      "path": "system.buffers/4.3.0",
+      "hashPath": "system.buffers.4.3.0.nupkg.sha512"
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Concurrent/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
+      "path": "system.collections.concurrent/4.3.0",
+      "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pOd+UhZ3X8xfwKDlgAzowUJNjp8VYVmOHZm++vCd0kq1HZ0zK3mNo2yRXjYgv7Ik/Xi43fmJfND2PLEsQSALCg==",
+      "path": "system.componentmodel.annotations/4.6.0",
+      "hashPath": "system.componentmodel.annotations.4.6.0.nupkg.sha512"
+    },
+    "System.Console/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
+      "path": "system.console/4.3.0",
+      "hashPath": "system.console.4.3.0.nupkg.sha512"
+    },
+    "System.Data.Common/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "path": "system.data.common/4.3.0",
+      "hashPath": "system.data.common.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Debug/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
+      "path": "system.diagnostics.debug/4.3.0",
+      "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Tools/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UUvkJfSYJMM6x527dJg2VyWPSRqIVB0Z7dbjHst1zmwTXz5CcXSYJFWRpuigfbO1Lf7yfZiIaEUesfnl/g5EyA==",
+      "path": "system.diagnostics.tools/4.3.0",
+      "hashPath": "system.diagnostics.tools.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.TraceSource/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
+      "path": "system.diagnostics.tracesource/4.3.0",
+      "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Tracing/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rswfv0f/Cqkh78rA5S8eN8Neocz234+emGCtTF3lxPY96F+mmmUen6tbn0glN6PMvlKQb9bPAY5e9u7fgPTkKw==",
+      "path": "system.diagnostics.tracing/4.3.0",
+      "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
+    },
+    "System.Formats.Asn1/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
+      "path": "system.formats.asn1/5.0.0",
+      "hashPath": "system.formats.asn1.5.0.0.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.Globalization.Calendars/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GUlBtdOWT4LTV3I+9/PJW+56AnnChTaOqqTLFtdmype/L500M2LIyXgmtd9X2P2VOkmJd5c67H5SaC2QcL1bFA==",
+      "path": "system.globalization.calendars/4.3.0",
+      "hashPath": "system.globalization.calendars.4.3.0.nupkg.sha512"
+    },
+    "System.Globalization.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FhKmdR6MPG+pxow6wGtNAWdZh7noIOpdD5TwQ3CprzgIE1bBBoim0vbR1+AWsWjQmU7zXHgQo4TWSP6lCeiWcQ==",
+      "path": "system.globalization.extensions/4.3.0",
+      "hashPath": "system.globalization.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C+Q5ORsFycRkRuvy/Xd0Pv5xVpmWSAvQYZAGs7VQogmkqlLhvfZXTgBIlHqC3cxkstSoLJAYx6xZB7foQ2y5eg==",
+      "path": "system.identitymodel.tokens.jwt/6.10.0",
+      "hashPath": "system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.IO.Compression/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YHndyoiV90iu4iKG115ibkhrG+S3jBm8Ap9OwoUAzO5oPDAWcr0SFwQFm0HjM8WkEZWo0zvLTyLmbvTkW1bXgg==",
+      "path": "system.io.compression/4.3.0",
+      "hashPath": "system.io.compression.4.3.0.nupkg.sha512"
+    },
+    "System.IO.Compression.ZipFile/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G4HwjEsgIwy3JFBduZ9quBkAu+eUwjIdJleuNSgmUojbH6O3mlvEIme+GHx/cLlTAPcrnnL7GqvB9pTlWRfhOg==",
+      "path": "system.io.compression.zipfile/4.3.0",
+      "hashPath": "system.io.compression.zipfile.4.3.0.nupkg.sha512"
+    },
+    "System.IO.FileSystem/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3wEMARTnuio+ulnvi+hkRNROYwa1kylvYahhcLk4HSoVdl+xxTFVeVlYOfLwrDPImGls0mDqbMhrza8qnWPTdA==",
+      "path": "system.io.filesystem/4.3.0",
+      "hashPath": "system.io.filesystem.4.3.0.nupkg.sha512"
+    },
+    "System.IO.FileSystem.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6QOb2XFLch7bEc4lIcJH49nJN2HV+OC3fHDgsLVsBVBk3Y4hFAnOBGzJ2lUu7CyDDFo9IBWkSsnbkT6IBwwiMw==",
+      "path": "system.io.filesystem.primitives/4.3.0",
+      "hashPath": "system.io.filesystem.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Linq/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
+      "path": "system.linq/4.3.0",
+      "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Expressions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
+      "path": "system.linq.expressions/4.3.0",
+      "hashPath": "system.linq.expressions.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Queryable/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
+      "path": "system.linq.queryable/4.3.0",
+      "hashPath": "system.linq.queryable.4.3.0.nupkg.sha512"
+    },
+    "System.Net.Http/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sYg+FtILtRQuYWSIAuNOELwVuVsxVyJGWQyOnlAzhV4xvhyFnON1bAzYYC+jjRW8JREM45R0R5Dgi8MTC5sEwA==",
+      "path": "system.net.http/4.3.0",
+      "hashPath": "system.net.http.4.3.0.nupkg.sha512"
+    },
+    "System.Net.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qOu+hDwFwoZPbzPvwut2qATe3ygjeQBDQj91xlsaqGFQUI5i4ZnZb8yyQuLGpDGivEPIt8EJkd1BVzVoP31FXA==",
+      "path": "system.net.primitives/4.3.0",
+      "hashPath": "system.net.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Net.Sockets/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m6icV6TqQOAdgt5N/9I5KNpjom/5NFtkmGseEH+AK/hny8XrytLH3+b5M8zL/Ycg3fhIocFpUMyl/wpFnVRvdw==",
+      "path": "system.net.sockets/4.3.0",
+      "hashPath": "system.net.sockets.4.3.0.nupkg.sha512"
+    },
+    "System.ObjectModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
+      "path": "system.objectmodel/4.3.0",
+      "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "path": "system.reflection.emit/4.3.0",
+      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJkrJD3kBI5B712aRu4DpSIiHRtr6QlfZSQsb0hYHrDCZORXCFjQfoipo2LaMUHoT9i1B7j7MnfaEKWDFmFQNQ==",
+      "path": "system.reflection.extensions/4.3.0",
+      "hashPath": "system.reflection.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+      "path": "system.reflection.typeextensions/4.4.0",
+      "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
+      "path": "system.runtime.extensions/4.3.0",
+      "hashPath": "system.runtime.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Handles/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OKiSUN7DmTWeYb3l51A7EYaeNMnvxwE249YtZz7yooT4gOZhmTjIn48KgSsw2k2lYdLgTKNJw/ZIfSElwDRVgg==",
+      "path": "system.runtime.handles/4.3.0",
+      "hashPath": "system.runtime.handles.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uv1ynXqiMK8mp1GM3jDqPCFN66eJ5w5XNomaK2XD+TuCroNTLFGeZ+WCmBMcBDyTFKou3P6cR6J/QsaqDp7fGQ==",
+      "path": "system.runtime.interopservices/4.3.0",
+      "hashPath": "system.runtime.interopservices.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cbz4YJMqRDR7oLeMRbdYv7mYzc++17lNhScCX0goO2XpGWdvAt60CGN+FHdePUEHCe/Jy9jUlvNAiNdM+7jsOw==",
+      "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
+      "hashPath": "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Numerics/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yMH+MfdzHjy17l2KESnPiF2dwq7T+xLnSJar7slyimAkUh/gTrS9/UQOtv7xarskJ2/XDSNvfLGOBQPjL7PaHQ==",
+      "path": "system.runtime.numerics/4.3.0",
+      "hashPath": "system.runtime.numerics.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Claims/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
+      "path": "system.security.claims/4.3.0",
+      "hashPath": "system.security.claims.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Algorithms/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W1kd2Y8mYSCgc3ULTAZ0hOP2dSdG5YauTb1089T0/kRcN2MpSAW1izOFROrJgxSlMn3ArsgHXagigyi+ibhevg==",
+      "path": "system.security.cryptography.algorithms/4.3.0",
+      "hashPath": "system.security.cryptography.algorithms.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jIMXsKn94T9JY7PvPq/tMfqa6GAaHpElRDpmG+SuL+D3+sTw2M8VhnibKnN8Tq+4JqbPJ/f+BwtLeDMEnzAvRg==",
+      "path": "system.security.cryptography.cng/5.0.0",
+      "hashPath": "system.security.cryptography.cng.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Csp/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X4s/FCkEUnRGnwR3aSfVIkldBmtURMhmexALNTwpjklzxWU7yjMk7GHLKOZTNkgnWnE0q7+BCf9N2LVRWxewaA==",
+      "path": "system.security.cryptography.csp/4.3.0",
+      "hashPath": "system.security.cryptography.csp.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1DEWjZZly9ae9C79vFwqaO5kaOlI5q+3/55ohmq/7dpDyDfc8lYe7YVxJUZ5MF/NtbkRjwFRo14yM4OEo9EmDw==",
+      "path": "system.security.cryptography.encoding/4.3.0",
+      "hashPath": "system.security.cryptography.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.OpenSsl/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
+      "path": "system.security.cryptography.openssl/4.3.0",
+      "hashPath": "system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9TPLGjBCGKmNvG8pjwPeuYy0SMVmGZRwlTZvyPHDbYv/DRkoeumJdfumaaDNQzVGMEmbWtg07zUpSW9q70IlDQ==",
+      "path": "system.security.cryptography.pkcs/5.0.0",
+      "hashPath": "system.security.cryptography.pkcs.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7bDIyVFNL/xKeFHjhobUAQqSpJq9YTOpbEs6mR233Et01STBMXNAc/V+BM6dwYGc95gVh/Zf+iVXWzj3mE8DWg==",
+      "path": "system.security.cryptography.primitives/4.3.0",
+      "hashPath": "system.security.cryptography.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.X509Certificates/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t2Tmu6Y2NtJ2um0RtcuhP7ZdNNxXEgUm2JeoA/0NvlMjAhKCnM1NX07TDl3244mVp3QU6LPEhT3HTtH1uF7IYw==",
+      "path": "system.security.cryptography.x509certificates/4.3.0",
+      "hashPath": "system.security.cryptography.x509certificates.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Principal/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I1tkfQlAoMM2URscUtpcRo/hX0jinXx6a/KUtEQoz3owaYwl3qwsO8cbzYVVnjxrzxjHo3nJC+62uolgeGIS9A==",
+      "path": "system.security.principal/4.3.0",
+      "hashPath": "system.security.principal.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
+      "path": "system.text.encoding.extensions/4.3.0",
+      "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
+      "path": "system.text.json/6.0.0",
+      "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
+    "System.Text.RegularExpressions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
+      "path": "system.text.regularexpressions/4.3.0",
+      "hashPath": "system.text.regularexpressions.4.3.0.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
+      "path": "system.threading.tasks.extensions/4.3.0",
+      "hashPath": "system.threading.tasks.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Timer/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
+      "path": "system.threading.timer/4.3.0",
+      "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.ReaderWriter/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GrprA+Z0RUXaR4N7/eW71j1rgMnEnEVlgii49GZyAjTH7uliMnrOU3HNFBr6fEDBCJCIdlVNq9hHbaDR621XBA==",
+      "path": "system.xml.readerwriter/4.3.0",
+      "hashPath": "system.xml.readerwriter.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XDocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
+      "path": "system.xml.xdocument/4.3.0",
+      "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XmlDocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
+      "path": "system.xml.xmldocument/4.3.0",
+      "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XPath/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v1JQ5SETnQusqmS3RwStF7vwQ3L02imIzl++sewmt23VGygix04pEH+FCj1yWb+z4GDzKiljr1W7Wfvrx0YwgA==",
+      "path": "system.xml.xpath/4.3.0",
+      "hashPath": "system.xml.xpath.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XPath.XmlDocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
+      "path": "system.xml.xpath.xmldocument/4.3.0",
+      "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    }
+  }
+}

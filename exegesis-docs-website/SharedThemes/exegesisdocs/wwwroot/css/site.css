@@ -8,6 +8,17 @@ body {
     padding-top: 142px;
 }
 
+blockquote {
+    background: #fbfbfb;
+    font-style: italic;
+    padding: 1rem 0 1rem 1rem;
+    border-left: 8px solid #ccc;
+}
+
+blockquote p {
+    display: inline;
+}
+
 #newPostLink {
     position: absolute;
     top: 170px;
