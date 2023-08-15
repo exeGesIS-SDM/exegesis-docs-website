@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-This file is used by the publish/package process of your Web project. You can customize the behavior of this process
-by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <PropertyGroup>
-    <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\Development\exegesis-docs-website-publish</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Development\exegesis-docs-website\publish\</_PublishTargetUrl>
+    <History>True|2023-08-15T21:21:05.4899587Z;True|2022-09-21T13:12:56.4106338+01:00;True|2022-09-16T16:38:47.9256802+01:00;True|2022-09-14T16:55:23.4706662+01:00;</History>
   </PropertyGroup>
 </Project>
