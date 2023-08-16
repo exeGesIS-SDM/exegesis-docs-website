@@ -3,12 +3,4 @@
   <PropertyGroup>
     <NameOfLastUsedPublishProfile>C:\Development\exegesis-docs-website\exegesis-docs-website\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
-  <ItemGroup>
-    <EmbeddedResource Update="GlobalResources\CloudscribeCore.en-US.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Update="GlobalResources\CloudscribeCore.it-IT.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
 </Project>
